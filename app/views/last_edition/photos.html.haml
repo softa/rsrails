@@ -1,0 +1,7 @@
+%section
+  %h1 Fotos
+.clear
+#photos
+  - for i in 1..20
+    %a{ :href => "/images/photos/rsonrails-1-#{i.to_s.rjust(2,'0')}.jpg", :rel => "shadowbox" }
+      = image_tag "photos/rsonrails-1-#{i.to_s.rjust(2,'0')}.jpg"

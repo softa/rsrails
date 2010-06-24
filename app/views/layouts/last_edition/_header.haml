@@ -1,0 +1,12 @@
+#site_navigation
+  %ul
+    %li.icon
+      - link_to last_edition_about_path, :class => 'img' do
+        = image_tag 'mini_logo_2009.png'
+    %li= link_to 'Sobre o evento', last_edition_about_path, :class => @selected_menu == :last_edition_about ? 'current_view' : ''
+    %li= link_to 'Fotos', last_edition_photos_path, :class => @selected_menu == :last_edition_photos ? 'current_view' : ''
+    %li= link_to 'Palestras', last_edition_keynotes_path, :class => @selected_menu == :last_edition_keynotes ? 'current_view' : ''
+    %li= link_to 'Edição 2010 »', root_path, :class => 'right_aligned'
+    .clear
+%h1= image_tag 'rsonrails_withbadge.png', :style => 'width:350px'
+%hr

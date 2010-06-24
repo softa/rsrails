@@ -1,0 +1,16 @@
+%hr
+#sponsors
+  %h6 Patrocínios
+  %ol#sponsors_list
+    %li
+      %a{ :href => 'http://www.mailee.me/', :target => :_blank }= image_tag 'sponsors/mailee.png', :title => 'Mailee · Email marketing 2.0'
+    %li
+      %a{ :href => 'http://www.softa.com.br/', :target => :_blank }= image_tag 'sponsors/softa.png', :title => 'Softa · Aplicações web 2.0 com Ruby on Rails e PostgreSQL'
+    %li
+      %a{ :href => 'http://www.targettrust.com.br/', :target => :_blank }= image_tag 'sponsors/targettrust.png', :title => 'T@rgetTrust'
+#event_by
+  %h6 Realização
+  %a{ :href => who_we_are_path }= image_tag 'gruporailsrs.png', :title => 'Grupo RS on Rails'
+  %br
+.clear
+= render :partial => 'shared/colophon'

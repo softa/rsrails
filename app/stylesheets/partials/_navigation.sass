@@ -1,0 +1,47 @@
+@import utilities.sass
+#site_navigation
+  z-index: 900
+  position: fixed
+  width: 100%
+  min-width: 960px
+  top: 0
+  left: 0
+  background: transparent url(/images/nav_bg.png) repeat-x fixed
+  text-align: left
+  height: 60px
+  ul
+    +container
+    list-style: none
+    li
+      display: inline
+      padding: .5em
+      &.icon
+        a:hover
+          +box-shadow(0,0,0,transparent)
+          background-color: transparent !important
+      a
+        display: block
+        float: left
+        cursor: pointer
+        color: #333
+        padding: .25em .5em
+        margin: .75em
+        font:
+          weight: bolder
+          size: 14px
+        text-shadow: 0 1px 0 $light
+        &:hover, &.current_view, &:active
+          +rounded(4px)
+          +box-shadow(0,1px,1px,rgba(255,255,255,.4))
+          text-decoration: none
+          background: #900
+          color: white
+          text-shadow: 0 -1px 0 $dark
+        &.right_aligned
+          float: right
+        &.img
+          padding: 0 1em 0 0 !important
+          margin-top: 0
+        img
+          margin: 0
+          margin-top: 5px

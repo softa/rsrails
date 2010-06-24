@@ -1,0 +1,10 @@
+.flash{ :style => 'display:none' }
+  - for key,msg in flash
+    %div{ :class => "#{key}_wrapper" }
+      %div{ :class => key }= msg
+:javascript 
+  $(function(){
+    setTimeout( function(){ $('.flash').slideDown('slow') }, 100)
+    if( ! $('.flash a').length) setTimeout( function(){ $('.flash').slideUp('slow') }, 16000)
+  })
+  $(window).click(function(){ $('.flash').slideUp() })

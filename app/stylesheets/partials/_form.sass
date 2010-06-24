@@ -1,0 +1,53 @@
+@import utilities.sass
+@import blueprint
+form
+  &#mailee-form, &#new_sponsors_form
+    +prepend(1)
+    +append(1)
+    :text-align left
+    fieldset
+      +rounded(1em)
+      +box-shadow(0,0,2em,rgba(0,0,0,1))
+      :background #ddd
+      :margin-top 2em
+      :padding 3em 4em
+      h2
+        :text-align center
+        :font-weight bolder
+        :text-shadow 0 1px 0 #fff
+      legend
+      label
+        :display block
+        :font-size 1.5em
+        :padding
+          :right .5em
+          :top 1.2em
+        :vertical-align middle
+        :text-shadow 0 1px 0 #fff
+      input[type="text"]
+        :border 1px solid #ccc
+        :font-size 1.8em
+        :width 20em
+        :margin-right .5em
+        :padding .5em
+        :color #777
+        :background #efefef
+        &:focus
+          +box-shadow(0,0,1em,#ccc)
+          :border-color #666
+          :color #111
+          :background white
+      input[type=checkbox]
+        :top 0
+        :height 16px
+        :width 16px
+    .label
+      :text-align right
+      +span(4)
+      +prepend(2)
+      +float-left
+    .input
+      +span(12)
+      +float-left
+    .submit
+      :text-align center

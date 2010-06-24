@@ -1,0 +1,156 @@
+@import utilities.sass
+!success_color            ||= #ffffff
+!success_bg_color         ||= #22bb22
+
+!notice_color             ||= #ffffff
+!notice_bg_color          ||= #ffcc00
+
+!failure_color            ||= #ffffff
+!failure_bg_color         ||= #ff3355
+
+!light       = rgba(255,255,255,.2)
+!dark        = rgba(0,0,0,.3)
+
+=blueprint-interaction
+  .failure
+    +failure
+  .notice
+    +notice
+  .success
+    +success
+
+=feedback-base
+  +rounded(1em)
+  +box-shadow(0,0,5px,rgba(0,0,0,.5))
+  :text-align center
+  :padding 1em
+  :margin 1em 2em
+
+=failure
+  +feedback-base
+  :background   = !failure_bg_color
+  :color        = !failure_color
+  a
+    :color      = !failure_color !important
+    :font-weight 900 !important
+    :text-decoration underline !important
+
+=notice
+  +feedback-base
+  :background   = !notice_bg_color
+  :color        = !notice_color
+  a
+    :color      = !notice_color
+
+=success
+  +feedback-base
+  :background   = !success_bg_color
+  :color        = !success_color
+  a
+    :color      = !success_color
+
+.rsrails_tweets, .rsonrails_group_tweets
+  :font
+    :size 1em
+  :color #fff
+  .tweet_list
+    :list-style-type none
+    :color #000
+    :margin 0
+    :padding 0
+    li
+      :background-color #ddd
+      :overflow auto
+      :padding 1em
+      :border-bottom 1px solid #ccc
+      &:last-child
+        :border-bottom 0 none
+        +rounded_bottom(1em)
+      &:first-child
+        +rounded_top(1em)
+      a
+        :color #468
+        :font-weight 900
+    .tweet_even
+      :background-color #ccc
+    .tweet_avatar
+      :padding-right .5em
+      :float left
+      img
+        +box-shadow(0,0,5px,rgba(0,0,0,.5))
+        :vertical-align middle
+        :border 4px solid white
+ul.speaker_twitter, ul.sponsors_twitter, ul.grupo_rsonrails
+  :list-style none
+  :margin 0
+  li
+    &:first-child
+      a
+        +rounded_top(1em)
+        :border-top 0 none
+    &:last-child
+      a
+        +rounded_bottom(1em)
+        :border-bottom 0 none
+    a
+      :position relative
+      :padding 1em 1.25em
+      :border-bottom 1px solid #aaa
+      :border-top 1px solid #ccc
+      :background #bbb
+      :display block
+      :color #000 !important
+      :font-weight 900
+      :text-shadow 0 1px 0 #ddd
+      &:hover
+        :background #eee
+        :text-decoration none !important
+        :color black
+        :text-shadow 0 1px 0 #fff !important
+        span.go
+          :visibility visible
+      span.go
+        :visibility hidden
+        :color #666
+        :position absolute
+        :right 1em
+        :top 1.5em
+      img.avatar
+        +box-shadow(0, 0, 3px, rgba(0,0,0,.5))
+        :vertical-align middle
+        :height 24px
+        :margin-right .5em
+        :border 2px solid #eee
+ul.social_box
+  :padding 0
+  :margin 0
+  :list-style none
+  :height 48px
+  li
+    :background #ccc url(/images/grad.png) repeat-x scroll top left
+    :float left
+    :height 48px
+    :border-left = 1px solid !light
+    :border-right = 1px solid !dark
+    &:first-child
+      +rounded_left(1em)
+      :border-left 0 none
+    &:last-child
+      +rounded_right(1em)
+      :border-right 0 none
+    &:hover
+      :background-color #eee
+    a
+      :color #666
+      :text-shadow 0 1px 0 #ccc
+      :font-weight 900
+      :padding .75em 1em 1em 1em
+      :display block
+      &:hover
+        :color black
+        :text-decoration none
+        img
+          :opacity 1
+      img
+        :vertical-align middle
+        :opacity .6

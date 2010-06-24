@@ -1,0 +1,25 @@
+// Use the following code to disable the dotted outline on links
+button
+  :outline-color transparent
+  &:active
+    :outline-color transparent
+  &:focus
+    :outline-color transparent
+a:focus
+  :outline-color transparent
+button.button::-moz-focus-inner
+  :border-color transparent
+a
+  :text-decoration none
+  &:hover
+    :text-decoration underline
+  &::-moz-selection
+    :background transparent
+  &::selection
+    :background transparent
+::-moz-selection
+  :background rgba(200,200,200,.5)
+::selection
+  :background rgba(200,200,200,.5)
+input:focus
+  :outline 0 none
