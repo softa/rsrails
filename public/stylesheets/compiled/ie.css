@@ -79,6 +79,18 @@ button {
   position: relative;
   top: 0.25em; }
 
-/* line 16, ../../../app/stylesheets/ie.sass */
+/* line 4, ../../../app/stylesheets/ie.sass */
 header, footer, #main {
   text-align: left; }
+
+/* line 7, ../../../app/stylesheets/ie.sass */
+p.alert {
+  background: black; }
+
+/* line 11, ../../../app/stylesheets/ie.sass */
+button.button, a.button {
+  border: 1px solid #888888; }
+
+/* line 14, ../../../app/stylesheets/ie.sass */
+#photos {
+  width: 900px; }

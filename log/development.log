@@ -53541,3 +53541,1642 @@ Rendered shared/_sponsors (0.6ms)
 Rendered shared/_colophon (0.3ms)
 Rendered layouts/site/_footer (3.2ms)
 Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 13:50:59) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (1.7ms)
+Rendered home/_form_mailee (5.5ms)
+Rendered layouts/site/_header (5.0ms)
+Rendered shared/_sponsors (2.3ms)
+Rendered shared/_colophon (2.4ms)
+Rendered layouts/site/_footer (68.4ms)
+Completed in 199ms (View: 198 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 13:51:07) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 13:53:33) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 17ms (View: 16 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 13:53:37) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 12ms (View: 12 | 200 OK [http://server/]
+
+
+Processing LastEditionController#keynotes (for 172.16.66.131 at 2010-06-25 13:54:01) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/keynotes
+Rendered last_edition/_schedule (5.5ms)
+Rendered layouts/last_edition/_header (2.7ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (5.2ms)
+Completed in 50ms (View: 49 | 200 OK [http://server/last_edition/keynotes]
+
+
+Processing HomeController#keynotes (for 172.16.66.1 at 2010-06-25 13:54:36) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 17ms (View: 16 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#signup (for 172.16.66.1 at 2010-06-25 13:58:25) [GET]
+Rendering template within layouts/site
+Rendering home/signup
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 14ms (View: 13 | 200 OK [http://server/signup]
+
+
+Processing LastEditionController#about (for 172.16.66.131 at 2010-06-25 14:01:58) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.2ms)
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.0ms)
+Completed in 17ms (View: 16 | 200 OK [http://server/last_edition/about]
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:02:01) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 18ms (View: 18 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#keynotes (for 172.16.66.131 at 2010-06-25 14:02:18) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/keynotes
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (3.3ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/last_edition/keynotes]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:02:20) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing HomeController#signup (for 172.16.66.1 at 2010-06-25 14:02:56) [GET]
+Rendering template within layouts/site
+Rendering home/signup
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.2ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/signup]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:03:02) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.7ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing HomeController#follow_event (for 172.16.66.131 at 2010-06-25 14:03:03) [GET]
+Rendering template within layouts/site
+Rendering home/follow_event
+Rendered shared/_sponsors_list (2.3ms)
+Rendered layouts/site/_header (0.4ms)
+Rendered shared/_sponsors (0.2ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (0.9ms)
+Completed in 17ms (View: 16 | 200 OK [http://server/follow_event]
+
+
+Processing HomeController#keynotes (for 172.16.66.131 at 2010-06-25 14:03:07) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#signup (for 172.16.66.131 at 2010-06-25 14:03:11) [GET]
+Rendering template within layouts/site
+Rendering home/signup
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 10ms (View: 10 | 200 OK [http://server/signup]
+
+
+Processing LastEditionController#about (for 172.16.66.131 at 2010-06-25 14:03:13) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/last_edition/about]
+
+
+Processing LastEditionController#keynotes (for 172.16.66.131 at 2010-06-25 14:03:15) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/keynotes
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.6ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/last_edition/keynotes]
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:03:17) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:04:04) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (4.5ms)
+Completed in 17ms (View: 16 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:04:15) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (3.3ms)
+Completed in 46ms (View: 45 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:04:28) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.7ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:05:05) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 18ms (View: 18 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#keynotes (for 172.16.66.131 at 2010-06-25 14:05:11) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/keynotes
+Rendered last_edition/_schedule (0.2ms)
+Rendered layouts/last_edition/_header (1.0ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/last_edition/keynotes]
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:05:18) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.0ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:05:53) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 16ms (View: 15 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#about (for 172.16.66.131 at 2010-06-25 14:05:54) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.2ms)
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.0ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/last_edition/about]
+
+
+Processing LastEditionController#about (for 172.16.66.131 at 2010-06-25 14:06:21) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (4.6ms)
+Completed in 18ms (View: 17 | 200 OK [http://server/last_edition/about]
+
+
+Processing LastEditionController#about (for 172.16.66.131 at 2010-06-25 14:06:52) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/last_edition/about]
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:06:58) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#keynotes (for 172.16.66.131 at 2010-06-25 14:07:00) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/keynotes
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/last_edition/keynotes]
+
+
+Processing LastEditionController#about (for 172.16.66.1 at 2010-06-25 14:07:13) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/last_edition/about]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:07:13) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#about (for 172.16.66.131 at 2010-06-25 14:07:19) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.0ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/last_edition/about]
+
+
+Processing LastEditionController#about (for 172.16.66.1 at 2010-06-25 14:07:32) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/about]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:07:35) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#about (for 172.16.66.1 at 2010-06-25 14:07:42) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.1ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/about]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:07:43) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#about (for 172.16.66.1 at 2010-06-25 14:07:50) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (3.0ms)
+Completed in 16ms (View: 15 | 200 OK [http://server/last_edition/about]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:07:51) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:07:58) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.7ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:07:59) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:08:52) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.7ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:08:53) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:09:05) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (3.0ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:09:08) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:09:18) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:09:19) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:09:28) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:09:30) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:10:11) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (1.1ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.0ms)
+Completed in 18ms (View: 18 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-01_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-02_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-03_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-04_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-05_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-06_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-07_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-08_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-09_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-10_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-11_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-12_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-13_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-14_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-15_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-16_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-17_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-18_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-19_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/photos/rsonrails-1-20_thumb.jpg" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:10:13) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:15:08) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 17ms (View: 16 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:15:09) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:15:35) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:15:37) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:15:41) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.9ms)
+Completed in 16ms (View: 15 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:15:42) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:16:03) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (47.0ms)
+Rendered layouts/last_edition/_footer (49.6ms)
+Completed in 62ms (View: 61 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:16:04) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:16:16) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.0ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:16:17) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:16:23) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (1.0ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (3.1ms)
+Completed in 16ms (View: 15 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:16:25) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:16:37) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:16:39) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:16:47) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 16ms (View: 15 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:16:48) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:16:57) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:16:58) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:17:03) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (3.2ms)
+Completed in 17ms (View: 16 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:17:04) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:17:12) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:17:14) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:17:19) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:17:20) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:17:41) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 18ms (View: 17 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:17:42) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:17:56) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:17:58) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:18:02) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 16ms (View: 15 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:18:03) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:23:22) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 24ms (View: 23 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:23:24) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:23:41) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (3.1ms)
+Completed in 20ms (View: 19 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:23:43) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:23:48) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 19ms (View: 18 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:23:49) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:25:51) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (3.1ms)
+Completed in 21ms (View: 20 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:25:53) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:27:07) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 19ms (View: 18 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:27:09) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.1 at 2010-06-25 14:28:01) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.7ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 18ms (View: 17 | 200 OK [http://server/last_edition/photos]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:28:03) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#photos (for 172.16.66.131 at 2010-06-25 14:28:20) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/photos
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.7ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/last_edition/photos]
+
+
+Processing LastEditionController#keynotes (for 172.16.66.1 at 2010-06-25 14:31:55) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/keynotes
+Rendered last_edition/_schedule (0.2ms)
+Rendered layouts/last_edition/_header (0.9ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (2.9ms)
+Completed in 10ms (View: 9 | 200 OK [http://server/last_edition/keynotes]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 14:31:55) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 14:31:57) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (1.0ms)
+Rendered layouts/site/_header (0.9ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/site/_footer (3.5ms)
+Completed in 22ms (View: 21 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:35:10) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:35:54) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:36:35) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:37:01) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.6ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:37:14) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.6ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:37:28) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing HomeController#follow_event (for 172.16.66.131 at 2010-06-25 14:37:44) [GET]
+Rendering template within layouts/site
+Rendering home/follow_event
+Rendered shared/_sponsors_list (3.2ms)
+Rendered layouts/site/_header (0.9ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (1.0ms)
+Rendered layouts/site/_footer (3.7ms)
+Completed in 22ms (View: 21 | 200 OK [http://server/follow_event]
+
+
+Processing HomeController#keynotes (for 172.16.66.131 at 2010-06-25 14:37:47) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.3ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#keynotes (for 172.16.66.131 at 2010-06-25 14:38:16) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#signup (for 172.16.66.131 at 2010-06-25 14:38:18) [GET]
+Rendering template within layouts/site
+Rendering home/signup
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.3ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/signup]
+
+
+Processing HomeController#keynotes (for 172.16.66.131 at 2010-06-25 14:38:20) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:38:21) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing HomeController#follow_event (for 172.16.66.131 at 2010-06-25 14:38:22) [GET]
+Rendering template within layouts/site
+Rendering home/follow_event
+Rendered shared/_sponsors_list (0.8ms)
+Rendered layouts/site/_header (0.4ms)
+Rendered shared/_sponsors (0.2ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (0.9ms)
+Completed in 9ms (View: 9 | 200 OK [http://server/follow_event]
+
+
+Processing HomeController#keynotes (for 172.16.66.131 at 2010-06-25 14:39:05) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 10ms (View: 10 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#signup (for 172.16.66.131 at 2010-06-25 14:39:07) [GET]
+Rendering template within layouts/site
+Rendering home/signup
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/signup]
+
+
+Processing HomeController#keynotes (for 172.16.66.131 at 2010-06-25 14:39:08) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 10ms (View: 10 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#signup (for 172.16.66.131 at 2010-06-25 14:39:09) [GET]
+Rendering template within layouts/site
+Rendering home/signup
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/site/_footer (3.3ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/signup]
+
+
+Processing HomeController#keynotes (for 172.16.66.131 at 2010-06-25 14:39:10) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#signup (for 172.16.66.131 at 2010-06-25 14:39:12) [GET]
+Rendering template within layouts/site
+Rendering home/signup
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 10ms (View: 9 | 200 OK [http://server/signup]
+
+
+Processing HomeController#keynotes (for 172.16.66.131 at 2010-06-25 14:39:13) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 10ms (View: 10 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#signup (for 172.16.66.131 at 2010-06-25 14:39:14) [GET]
+Rendering template within layouts/site
+Rendering home/signup
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/signup]
+
+
+Processing HomeController#keynotes (for 172.16.66.131 at 2010-06-25 14:39:15) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.2ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.0ms)
+Completed in 8ms (View: 8 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 14:39:43) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (1.4ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/site/_footer (4.8ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:40:39) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.2ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:57:23) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.7ms)
+Completed in 14ms (View: 13 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:58:03) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/home]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:58:43) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 14ms (View: 13 | 200 OK [http://server/home]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 14:58:44) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.8ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.4ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/home]
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 14:58:49) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 15:00:00) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.8ms)
+Completed in 17ms (View: 16 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 15:00:55) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.2ms)
+Completed in 14ms (View: 13 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.131 at 2010-06-25 15:00:59) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/home]
+
+
+Processing HomeController#follow_event (for 172.16.66.1 at 2010-06-25 15:08:10) [GET]
+Rendering template within layouts/site
+Rendering home/follow_event
+Rendered shared/_sponsors_list (0.9ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/site/_footer (1.9ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/follow_event]
+
+
+Processing HomeController#keynotes (for 172.16.66.1 at 2010-06-25 15:55:34) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (1.0ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/site/_footer (3.4ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#keynotes (for 172.16.66.1 at 2010-06-25 15:56:31) [GET]
+Rendering template within layouts/site
+Rendering home/keynotes
+Rendered layouts/site/_header (2.9ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 15ms (View: 14 | 200 OK [http://server/keynotes]
+
+
+Processing HomeController#follow_event (for 172.16.66.1 at 2010-06-25 15:56:34) [GET]
+Rendering template within layouts/site
+Rendering home/follow_event
+Rendered shared/_sponsors_list (1.0ms)
+Rendered layouts/site/_header (0.7ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/site/_footer (1.9ms)
+Completed in 12ms (View: 11 | 200 OK [http://server/follow_event]
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 15:56:35) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.6ms)
+Rendered shared/_sponsors (0.5ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.9ms)
+Completed in 13ms (View: 12 | 200 OK [http://server/]
+
+
+Processing LastEditionController#about (for 172.16.66.1 at 2010-06-25 15:56:37) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.2ms)
+Rendered layouts/last_edition/_header (0.8ms)
+Rendered shared/_colophon (0.4ms)
+Rendered layouts/last_edition/_footer (3.0ms)
+Completed in 19ms (View: 18 | 200 OK [http://server/last_edition/about]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 15:56:37) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#about (for 172.16.66.1 at 2010-06-25 15:57:07) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.7ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 10ms (View: 9 | 200 OK [http://server/last_edition/about]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 15:57:08) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LastEditionController#about (for 172.16.66.1 at 2010-06-25 15:57:11) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.2ms)
+Rendered layouts/last_edition/_header (0.7ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.8ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/last_edition/about]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 15:57:11) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 15:57:11) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (2.5ms)
+Rendered shared/_sponsors (0.2ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (2.2ms)
+Completed in 21ms (View: 20 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 15:57:29) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.7ms)
+Rendered layouts/site/_header (0.6ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.1ms)
+Completed in 18ms (View: 17 | 200 OK [http://server/]
+
+
+Processing HomeController#index (for 172.16.66.1 at 2010-06-25 15:57:41) [GET]
+Rendering template within layouts/site
+Rendering home/index
+Rendered home/_flash (0.1ms)
+Rendered home/_form_mailee (0.6ms)
+Rendered layouts/site/_header (0.6ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (3.0ms)
+Completed in 19ms (View: 18 | 200 OK [http://server/]
+
+
+Processing HomeController#follow_event (for 172.16.66.1 at 2010-06-25 15:58:02) [GET]
+Rendering template within layouts/site
+Rendering home/follow_event
+Rendered shared/_sponsors_list (0.8ms)
+Rendered layouts/site/_header (0.6ms)
+Rendered shared/_sponsors (0.6ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/site/_footer (1.7ms)
+Completed in 11ms (View: 10 | 200 OK [http://server/follow_event]
+
+
+Processing LastEditionController#about (for 172.16.66.1 at 2010-06-25 15:58:06) [GET]
+Rendering template within layouts/last_edition
+Rendering last_edition/about
+Rendered last_edition/_schedule (0.1ms)
+Rendered layouts/last_edition/_header (0.7ms)
+Rendered shared/_colophon (0.3ms)
+Rendered layouts/last_edition/_footer (2.7ms)
+Completed in 10ms (View: 9 | 200 OK [http://server/last_edition/about]
+
+
+Processing ApplicationController#index (for 172.16.66.1 at 2010-06-25 15:58:06) [GET]
+
+ActionController::RoutingError (No route matches "/last_edition/favicon.ico" with {:method=>:get}):
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.13) lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)

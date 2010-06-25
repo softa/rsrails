@@ -1,7 +1,16 @@
+- content_for :head do
+  = javascript_include_tag 'shadowbox-3.0.3/shadowbox.js'
+  = stylesheet_link_tag '/javascripts/shadowbox-3.0.3/shadowbox.css', :media => 'screen, projection'
+  :javascript 
+    Shadowbox.init({
+      overlayOpacity: 0.75,
+      animate: false
+    });
 %section
   %h1 Fotos
 .clear
 #photos
   - for i in 1..20
-    %a{ :href => "/images/photos/rsonrails-1-#{i.to_s.rjust(2,'0')}.jpg", :rel => "shadowbox" }
-      = image_tag "photos/rsonrails-1-#{i.to_s.rjust(2,'0')}.jpg"
+    %a{ :href => "/images/photos/rsonrails-1-#{i.to_s.rjust(2,'0')}.jpg", :rel => "shadowbox[RS on Rails - 1ª Edição]" }= image_tag "photos/rsonrails-1-#{i.to_s.rjust(2,'0')}_thumb.jpg"
+  .clear
+    

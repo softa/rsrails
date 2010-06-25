@@ -86,33 +86,33 @@ body
         a
           text-decoration: underline
           font-weight: 100
-      dl
-        dt
-          color: white
-          text-shadow: 0 -1px 0 $dark
-        dd
-          color: black
-          font-weight: 900
-          text-shadow: 0 1px 0 $light
-          padding-bottom: 1em
-      a.last_edition_thumbnail
-        +rounded(.5em)
-        background: #ddd
-        color: $dark
-        margin: .5em 0 0 0
-        padding: 10px
-        text-align: right
-        display: block
-        cursor: pointer
+    dl
+      dt
+        color: white
+        text-shadow: 0 -1px 0 $dark
+      dd
+        color: black
+        font-weight: 900
+        text-shadow: 0 1px 0 $light
+        padding-bottom: 1em
+    a.last_edition_thumbnail
+      +rounded(.5em)
+      background: #ddd
+      color: $dark
+      margin: .5em 0 0 0
+      padding: 10px
+      text-align: right
+      display: block
+      cursor: pointer
+      text-decoration: none
+      &:hover
         text-decoration: none
-        &:hover
-          text-decoration: none
-          background: white
-          color: black
-        img
-          +box-shadow(0, 0, 2px, $dark)
-          border: 1px solid #888
-          width: 210px
+        background: white
+        color: black
+      img
+        +box-shadow(0, 0, 2px, $dark)
+        border: 1px solid #888
+        width: 210px
     h4
       color: white
       font:
@@ -184,32 +184,13 @@ ol#sponsors_list
     style: italic
 #photos
   text-align: center
-  padding: 15px
+  padding: 0 20px
   img
-    max-width: 250px
-    max-height: 180px
-    margin: 15px
-    border: 4px solid white
+    display: block
+    float: left
+    margin: 0 40px 30px 0
+    border: 5px solid white
     +box-shadow(0,0,.5em,black)
-  ul.thumbnails_list
-    margin: 0
-    list-style: none
-    padding-left: 1em
-    li
-      display: inline
-      float: left
-      margin:
-        right: 1em
-        top: 1em
-        bottom: 1em
-      a
-        img
-          +box-shadow(0,0,.5em,black)
-          width: 48px
-          height: 48px
-          border: 3px solid #ccc
-          &:hover
-            border-color: #fff
 table.schedule
   +prepend-top
   margin: 0

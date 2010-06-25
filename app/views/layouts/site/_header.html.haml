@@ -3,8 +3,8 @@
     %li.icon= link_to image_tag('icon_2010.png'), root_path, :class => 'img'
     %li= link_to 'RS on Rails 2010', root_path, :class => @selected_menu == :home ? 'current_view' : ''
     %li= link_to 'Twitter Feed', follow_event_path, :class => @selected_menu == :twitter ? 'current_view' : ''
-    %li= link_to 'Palestras', keynotes_path, :class => @selected_menu == :keynotes ? 'current_view' : ''
-    %li= link_to 'Inscrições', signup_path, :class => @selected_menu == :signup ? 'current_view' : ''
+    -#%li= link_to 'Palestras', keynotes_path, :class => @selected_menu == :keynotes ? 'current_view' : ''
+    -#%li= link_to 'Inscrições', signup_path, :class => @selected_menu == :signup ? 'current_view' : ''
     %li= link_to 'Edição 2009 »', last_edition_about_path, :class => 'right_aligned'
     %li.clear
 %a{:href => '/home' }
