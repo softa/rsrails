@@ -1,109 +1,55 @@
 @import utilities.sass
 =button-font-family(!size)
-  :font
-    :weight bold
-    :size = !size
-!button_bg = url(/images/button_bg.png)
-a::-moz-selection
-  :background transparent !important
+  font:
+    weight: bold
+    size: $size
+$button_bg: url(/images/button_bg.png)
+buttona::-moz-selection, a::-moz-selection
+  background: transparent !important
   &:hover, &:active, &:link, &:visited
-    :background transparent !important
-a::selection
-  :background transparent !important
+    background: transparent !important
+button::selection, a::selection
+  background: transparent !important
   &:hover, &:active, &:link, &:visited
-    :background transparent !important
+    background: transparent !important
 button.button
   +rounded(.25em)
   +box-shadow(0, 1px, 2px, rgba(0,0,0,1))
   +button-font-family(14px)
-  :border 1px solid rgba(0,0,0,.2)
-  :padding .5em 1em
-  :margin 0
-  :color #333333 !important
-  :text
-    :decoration none
-    :shadow 0 1px 0 rgba(255,255,255,.5)
-  :background
-    :color #ddd
-    :image = !button_bg
-    :repeat repeat-x
-    :attachment scroll
-    :position top left
-  :position relative
-  :cursor pointer
-  :white-space nowrap
-  :display inline-block
-  :top -1px
+  border: 1px solid rgba(0,0,0,.2)
+  padding: .5em 1em
+  margin: 0
+  color: #333333 !important
+  text:
+    decoration: none
+    shadow: 0 1px 0 rgba(255,255,255,.7)
+  background: #ddd $button_bg repeat-x scroll top left
+  cursor: pointer
+  white-space: nowrap
+  display: inline-block
   &:hover, &.hover
-    :border-color rgba(0,0,0,.6)
-    :background-color #fff
-    :text-decoration none !important
-    :color #000000 !important
+    border-color: rgba(0,0,0,.4)
+    background-color: #fff
+    text-decoration: none !important
+    color: #000000 !important
   &:active
-    +box-shadow(0, -1px, 2px, rgba(0,0,0,1))
-    :top 0px
-    :border-color rgba(0,0,0,.8)
-    :background-color #bbb
-    :color #000000 !important
+    +box-shadow(0, -1px, 2px, rgba(0,0,0,.5))
+    position: relative
+    top: 1px
+    border-color: rgba(0,0,0,.6)
+    background-color: #bbb
+    color: #000000 !important
   &.disabled
     +box-shadow(0, 1px, 2px, rgba(30,30,30,.2))
-    :border 1px solid rgba(30,30,30,.2)
-    :color #909090 !important
-    :background-color #cccccc
-    :text-shadow 0 1px 0 rgba(230,230,230,.8)
+    border: 1px solid rgba(30,30,30,.2)
+    color: #909090 !important
+    background-color: #cccccc
+    text-shadow: 0 1px 0 rgba(230,230,230,.8)
     &:hover
-      :text-decoration none
+      text-decoration: none
     &:active
-      :top 0
+      top: 0
   &::-moz-selection
-    :background transparent !important
+    background: transparent !important
   &::selection
-    :background transparent !important
-a.button
-  +rounded(3em)
-  +box-shadow(0, 1px, 1px, rgba(0,0,0,.5))
-  +button-font-family(11px)
-  //:border 1px solid rgba(0,0,0,.2)
-  :padding .5em 1em
-  :margin 0
-  :color #333333 !important
-  :text
-    :decoration none
-    :shadow 0 1px 0 rgba(255,255,255,.5)
-  :background
-    :color #ddd
-    :image = !button_bg
-    :repeat repeat-x
-    :attachment scroll
-    :position top left
-  :position relative
-  :cursor pointer
-  :white-space nowrap
-  :display inline-block
-  :top -1px
-  :right 0
-  &:hover, &.hover
-    :border-color rgba(0,0,0,.6)
-    :background-color #fff
-    :text-decoration none !important
-    :color #000000 !important
-  &:active
-    +box-shadow(0, -1px, 1px, rgba(0,0,0,.5))
-    :top 0px
-    :border-color rgba(0,0,0,.8)
-    :background-color #bbb
-    :color #000000 !important
-  &.disabled
-    +box-shadow(0, 1px, 2px, rgba(30,30,30,.2))
-    :border 1px solid rgba(30,30,30,.2)
-    :color #909090 !important
-    :background-color #cccccc
-    :text-shadow 0 1px 0 rgba(230,230,230,.8)
-    &:hover
-      :text-decoration none
-    &:active
-      :top 0
-  &::-moz-selection
-    :background transparent !important
-  &::selection
-    :background transparent !important
+    background: transparent !important

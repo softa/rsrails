@@ -8,5 +8,10 @@
     %li= link_to 'Palestras', last_edition_keynotes_path, :class => @selected_menu == :last_edition_keynotes ? 'current_view' : ''
     %li= link_to 'Edição 2010 »', root_path, :class => 'right_aligned'
     .clear
-%h1= image_tag 'rsonrails_withbadge.png', :style => 'width:350px'
+#rsonrails_logo
+  = link_to image_tag('rsonrails_withbadge.png', :alt => 'RS on Rails', :style => 'width:450px'), '/last_edition/about'
+#about_ruby_on_rails
+  %h3 Ruby on Rails
+  %p #{link_to 'Ruby on Rails', 'http://rubyonrails.org/'}, ou apenas Rails ou RoR, é um framework para desenvolvimento de aplicações web criado por #{link_to 'David Heinemeier Hansson', 'http://www.loudthinking.com/'}, da empresa #{link_to '37signals', 'http://37signals.com/'}, e publicado em fevereiro de 2005. #{link_to 'Mais informações »', 'http://pt.wikipedia.org/wiki/Ruby_on_Rails'}
+.clear
 %hr

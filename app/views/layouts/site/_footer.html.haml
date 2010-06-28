@@ -1,10 +1,12 @@
 %hr
-#sponsors
-  %h6 Patrocínios · #{link_to 'Saiba como patrocinar »', sponsorship_path}
-  = render :partial => 'shared/sponsors'
-  %br
 #event_by
   %h6 Realização
   = link_to image_tag('gruporailsrs.png'), who_we_are_path, :title => 'Grupo RS on Rails'
+#supporters
+  %h6 Apoio
+  = render :partial => 'shared/supporters'
+#sponsors
+  %h6 Patrocínio · #{link_to 'Saiba como patrocinar »', sponsorship_path}
+  = render :partial => 'shared/sponsors'
 .clear
 = render :partial => 'shared/colophon'

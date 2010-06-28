@@ -1,5 +1,7 @@
 class HomeController < ActionController::Base
 
+  helper :application
+
   layout 'site'
 
   def index

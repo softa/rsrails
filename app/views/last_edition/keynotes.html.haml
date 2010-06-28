@@ -1,6 +1,7 @@
-%section
+- @body_id = "last_edition_keynotes"
+%section.last_edition_keynotes
   %h1 Palestras
-  %dl.keynotes
+  %dl.keynotes.last_edition
     %dt
       Introdução a Ruby on Rails
       %em.by_line por Juan Maiz Lulkin Flores da Cunha
@@ -113,6 +114,7 @@
           %param{ :name => 'allowFullScreen', :value => 'true' }
           %param{ :name => 'allowScriptAccess', :value => 'always' }
           %embed{ :src => 'http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=reusodecdigocomrails-090904145118-phpapp02&stripped_title=palestra-rodrigo-urubatan', :allowfullscreen => 'true', :type => 'application/x-shockwave-flash', :allowscriptaccess => 'always', :height => '355', :width => '425' }
-%aside
+%aside.last_edition_schedule
   %h6 Programa
   = render :partial => 'schedule'
+.clear

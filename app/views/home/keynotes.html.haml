@@ -1,58 +1,138 @@
-%section
-  %h1 Palestras confirmadas
-  %h3 Técnicas
+- @body_id = "keynotes"
+%section.keynotes_list
+  %h1 Palestras técnicas
   %dl.keynotes
     %dt
-      %h2.keynote_title
-      %em.by_line Fábio Akita
-      = image_tag 'http://a1.twimg.com/profile_images/483721382/4015270661_1d44744ac4_o_normal.jpg'
+      %h3.keynote_title Dicas de Desenvolvimento Web com Ruby
+      .by_line
+        = image_tag 'http://a1.twimg.com/profile_images/483721382/4015270661_1d44744ac4_o_normal.jpg'
+        Fábio Akita
+        = twitter_profile "AkitaOnRails"
     %dd
       %p.about
-        -# Algo sobre escalabilidade, Resque…
       .autor_resume
-        %h6 Sobre o autor:
         %p
+          %span Sobre o autor:
+          = link_to 'akitaonrails.com', 'http://akitaonrails.com/', :target => :_blank
     %dt
-      %h2.keynote_title
-      %em.by_line Daniel Wildt [Grupo Guru-RS]
+      %h3.keynote_title Cloud e as opções do Google para desenvolvedores RoR
+      .by_line
+        = image_tag 'http://a3.twimg.com/profile_images/344531419/wildt_xsmall_bigger.jpg'
+        Daniel Wildt <em>Grupo Guru-RS</em>
+        = twitter_profile "dwildt"
     %dd
       %p.about
-        -# sobre Ruby no Google App Engine
       .autor_resume
-        %h6 Sobre o autor:
         %p
+          %span Sobre o autor:
+          = link_to "danielwildt.com", "http://www.danielwildt.com/", :target => :_blank
     %dt
-      %h2.keynote_title
-      %em.by_line Tiago Bueno [ThoughtWorks]
-      = image_tag 'http://a1.twimg.com/profile_images/555087560/me_normal.jpeg'
+      %h3.keynote_title Rack
+      .by_line
+        = image_tag 'http://a1.twimg.com/profile_images/555087560/me_normal.jpeg'
+        Tiago Bueno <em>ThoughtWorks</em>
+        = twitter_profile "tbueno"
     %dd
       %p.about
-        -# sobre Ruby no Google App Engine
       .autor_resume
-        %h6 Sobre o autor:
         %p
+          %span Sobre o autor:
+          = link_to "tbueno.com", "http://tbueno.com/", :target => :_blank
     %dt
-      %h2.keynote_title
-      %em.by_line Carlos Antonio [Plataforma Tec]
+      %h3.keynote_title Rails 3
+      .by_line
+        = image_tag 'http://a3.twimg.com/profile_images/398519669/carlos240_bigger.jpg'
+        Carlos Antonio <em>Plataforma Tec</em>
+        = twitter_profile "cantoniodasilva"
     %dd
       %p.about
-        -# sobre Ruby no Google App Engine
       .autor_resume
-        %h6 Sobre o autor:
         %p
-  %hr
-  %h3 Cases
-  %dt.keynotes
+          %span Sobre o autor:
+          = link_to "carlosantoniodasilva.wordpress.com", "http://carlosantoniodasilva.wordpress.com/", :target => :_blank
     %dt
-      %h2.keynote_title
-      %em.by_line TRE-RS
+      %h3.keynote_title A definir.
+      .by_line
+        = image_tag 'http://a3.twimg.com/profile_images/481709123/Brasil_verao_2009_216_bigger.JPG'
+        Rodrigo Kochenburger
+        = twitter_profile "divoxx"
     %dd
-      %a{:href=> 'http://www.tre-rs.gov.br/', :target => :_blank} http://www.tre-rs.gov.br/
+      %p.about
+      .autor_resume
+        %p
+          %span Sobre o autor:
+          = link_to "blog.divoxx.com", "http://blog.divoxx.com/", :target => :_blank
     %dt
-      %h2.keynote_title
-      %em.by_line Tá Tri Imóveis
+      %h3.keynote_title Ruby-Raid - Porque ruby pode ser divertido sem r***s!
+      .by_line
+        = image_tag 'http://a1.twimg.com/profile_images/473287948/pedro_barcelona_rosto_bigger.jpg'
+        Pedro Pimentel
+        = twitter_profile "zukunftsalick"
+    %dd
+      %p.about
+      .autor_resume
+        %p
+          %span Sobre o autor:
+          = link_to 'pedropimentel.com', 'http://www.pedropimentel.com/', :target => :_blank
+%aside.keynotes_schedule
+  %h6 Horários
+  %p A definir.
+.clear
+%hr
+%section.cases_list
+  %h1 Cases
+  %dl.keynotes
+    %dt
+      %h3.keynote_title
+      .by_line
+        = image_tag "http://a3.twimg.com/profile_images/817909499/bandeira_bigger.jpg"
+        TRE-RS
+        = twitter_profile "TRE_RS"
+    %dd
+      %a{:href=> 'http://www.tre-rs.gov.br/', :target => :_blank} tre-rs.gov.br
+    %dt
+      %h3.keynote_title
+      .by_line
+        = image_tag "http://a3.twimg.com/profile_images/978688445/tatri_logo_png8_150_bigger.png"
+        Tá Tri Imóveis
+        = twitter_profile "tatri_imoveis"
     %dd
       %a{:href=> 'http://imoveis.tatri.com.br/', :target => :_blank} imoveis.tatri.com.br
-%aside
-  %h6 Horários
-  %hr
+.clear
+%hr
+%section.lightning_talks_list
+  %h1 Lightning Talks
+  %dl.keynotes
+    %dt
+      %h3.keynote_title Agile + Rails
+      .by_line
+        = image_tag "http://a1.twimg.com/profile_images/385474730/S6302103_2_bigger.JPG"
+        Felipe Elias
+        = twitter_profile "felipeelias"
+    %dt
+      %h3.keynote_title Vagas abertas para <em>lightning talks</em>!
+      .by_line
+        = image_tag "icon_2010.png"
+        #{mail_to 'contato@rsrails.com.br', '« mande já sua proposta »'}
+    -#
+      %dd
+        %p.about
+        .autor_resume
+          %p
+            %span Sobre o autor:
+      %dt
+        %h3.keynote_title &nbsp;
+        .by_line
+      %dd
+        %p.about
+        .autor_resume
+          %p
+            %span Sobre o autor:
+      %dt
+        %h3.keynote_title &nbsp;
+        .by_line
+      %dd
+        %p.about
+        .autor_resume
+          %p
+            %span Sobre o autor:

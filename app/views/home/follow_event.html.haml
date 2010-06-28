@@ -1,13 +1,7 @@
-%section
-  %h4
-    = image_tag 'social/twitter_32.png', :style => 'vertical-align:middle;'
-    Seguindo:
-    %span.hash_tag #rsonrails
-    %span.hash_tag #rsrails
-    %span.hash_tag #railsrs
-    %span.hash_tag #railsbr
+- @body_id = "rsrails_tweets"
+%section.follow_event
+  %h4 #{image_tag('social/twitter_32.png')} Seguindo: #rsonrails, #rsrails, #railsrs, #railsbr
   .rsrails_tweets
-%aside
+%aside.follow_event_sidebar
   %h6 Patrocinadores
-  .prepend-top
-    = render :partial => 'shared/sponsors_list'
+  = render :partial => 'shared/sponsors_list'

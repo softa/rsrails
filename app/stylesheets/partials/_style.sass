@@ -1,83 +1,122 @@
 @import blueprint
++blueprint
 body
   padding: 2em 0
-  background:
-    color: #666
-    image: url(/images/bg.png)
-  header
-    +container
-    display: block
-    text-align: center
-    h1, h3
-      margin: 0
-      margin-top: 2em
-      color: #111
-      text:
-        transform: uppercase
-        shadow: 0 1px 0 $light, 0 -1px 0 $dark
-      font
-        weight: 500
-        size: 2em
-    h3
-      margin-top: -.5em
-  #main
-    +container
-    .centralized_button
+  height: 100%
+  background: #666 url(/images/bg.png) repeat scroll top left
+  hr
+    margin: 3em 0
+    padding: 0
+    border: 0 none
+    border:
+      top: 1px solid $dark
+      bottom: 1px solid $light
+  a, a:visited
+    color: #ccc
+    cursor: pointer
+    text-decoration: none
+    white-space: nowrap
+    &:hover
+      text-decoration: underline
+      color: #fff
+    &:active
+      color: #aaa
+  h1, h2, h3, h4, h5, h6
+    img
+      vertical-align: middle
+  h1
+    margin: 0 0 1em 0
+    shadow: 0 1px 0 $light, 0 -1px 0 $dark
+    color: #000000
+    font:
+      size: 40px
+      weight: 900
+    text:
+      shadow: 0 1px 0 rgba(255,255,255,.4)
+      transform: uppercase
+  h2
+    font:
+      size: 30px
+    color: black
+    text-shadow: 0 1px 0 rgba(255,255,255,.6)
+  h3
+    font:
+      size: 18px
+      weight: 900
+    text-shadow: 0 1px 0 rgba(255,255,255,.4)
+    margin: 1.5em 0 1em 0
+    color: black
+  h6
+    text-shadow: 0 1px 0 $light
+    color: #000
+  p
+    font:
+      size: 14px
+    color: white
+    padding: 0
+    text-shadow: 0 -1px 0 $dark
+    &.alert
+      +rounded(6px)
+      +box-shadow(0, 1px, 0, $light)
+      background-color: $dark
+      padding: 1em
+      margin: 1em 0
       text-align: center
-    .tweets_rsrails_wrapper
-      +prepend(1)
-      +span(10)
-      +append(1)
-      +float-left
-    .tweets_about_wrapper
-      +prepend(1)
-      +span(10)
-      +append(1)
-      +float-left
-      +last
-    section
-      +prepend(1)
-      +span(16)
-      +append(1)
-      +float-left
-      &.keynotes
-        ul
-          color: white
-          li
-      h1
-        text-shadow: 0 1px 0 rgba(255,255,255,.4)
-        font-weight: 900
-      p
-        font:
-          size: 14px
-        color: white
-        padding: 0
-        text-shadow: 0 -1px 0 $dark
-        &.alert
-          +rounded(1em)
-          background: rgba(0,0,0,.3)
-          padding: 1em
-          margin: 1em 0
-          text-align: center
-          strong
-            color: #6d6
-            font-size: 2em
-            text-shadow: 0 1px 0 $light
+      strong
+        color: #fff
+        font-size: 2em
         a
           text-decoration: underline
           font-weight: 100
-    aside
-      +span(6)
+  header
+    +container
+    display: block
+    text-align: left
+    #rsonrails_logo
+      +span(13)
       +float-left
-      +last
-      h2
-        font:
-          size: 1.2em
-          weight: 900
-        text-shadow: 0 1px 0 rgba(255,255,255,.4)
+      margin-top: 48px
+    #about_ruby_on_rails
+      +span(11, last)
+      +float-left
+      margin-top: 48px
+    p
+      color: #bbb
+      margin: 1em 0
+      a, a:visited
+        text-decoration: underline
+  section
+    &#main
+      +container
+      .tweets_rsrails_wrapper
+        +prepend(1)
+        +span(10)
+        +append(1)
+        +float-left
+      .tweets_about_wrapper
+        +prepend(1)
+        +span(10)
+        +append(1)
+        +float-left
+        +last
+    &.keynotes_list, &.home, &.follow_event, &.last_edition_home, &.sponsorship, &.who_we_are
+      +span(15, last)
+      +append(1)
+      +float-left
+    &.cases_list, &.lightning_talks_list
+      +span(24, last)
+      +float-left
+    &.last_edition_keynotes
+      +span(15)
+      +append(1)
+      +float-left
+    aside
+      &.keynotes_schedule, &.home, &.follow_event_sidebar, &.last_edition_schedule, &.current_sponsors, &.rs_rails_group
+        +span(8)
+        +float-left
+        +last
       h6
-        text-shadow: 0 1px 0 $light
-        color #000
+        margin-bottom: 2em
       p
         font:
           size: 12px
@@ -86,22 +125,13 @@ body
         a
           text-decoration: underline
           font-weight: 100
-    dl
-      dt
-        color: white
-        text-shadow: 0 -1px 0 $dark
-      dd
-        color: black
-        font-weight: 900
-        text-shadow: 0 1px 0 $light
-        padding-bottom: 1em
-    a.last_edition_thumbnail
+    a.thumbnail
       +rounded(.5em)
       background: #ddd
       color: $dark
       margin: .5em 0 0 0
-      padding: 10px
-      text-align: right
+      padding: 20px
+      text-align: center
       display: block
       cursor: pointer
       text-decoration: none
@@ -112,7 +142,6 @@ body
       img
         +box-shadow(0, 0, 2px, $dark)
         border: 1px solid #888
-        width: 210px
     h4
       color: white
       font:
@@ -134,24 +163,21 @@ body
     color: white
     display: block
     #sponsors
-      +span(18)
+      +span(12)
       +float-left
       img
         margin: 10px
         vertical-align: middle
         width: 100px
-        opacity: .5
-        &:hover
-          opacity: 1
+    #supporters
+      +span(6)
+      +float-left
     #event_by
       +span(6, last)
       +float-left
       img
         width: 140px
         margin: 10px 0
-        opacity: .5
-        &:hover
-          opacity: 1
     h6
       color: #111
       text-shadow: 0 1px 0 $light
@@ -170,14 +196,10 @@ ol#sponsors_list
   margin: 0
   li
     display: inline
-    a
-      img
-        margin: 10px
-        vertical-align: middle
-        width: 100px
-        opacity: .5
-        &:hover
-          opacity: 1
+    a img
+      margin: 10px
+      vertical-align: middle
+      width: 100px
 .alternate
   font:
     family: Baskerville, Palatino, 'Book Antiqua', serif
@@ -225,35 +247,82 @@ dl.keynotes
   list-style: none
   dt
     padding: 0
-    font:
-      weight: 900
-      size: 1.5em
-    margin:
-      bottom: .5em
-      top: 3em
-    text-shadow: 0 1px 0 $light
-    color: black
-    em.by_line
-      display: block
-      color: #aaa
-      text-shadow: 0 -1px 0 $dark
+    margin: 3em 0 .5em 0
+    color: white
+    text-shadow: 0 -1px 0 $dark
+    h2
+      color: #ddd
+      text-shadow: 0 -1px 0 #000
       font:
-        size: .85em
-        weight: 100
+        weight: 900
+        size: 22px
+    .by_line
+      +rounded(6px)
+      padding: 12px
+      background-color: #ddd
+      color: #000
+      text-shadow: 0 1px 0 #fff
+      font:
+        size: 1.25em
+        weight: 900
         style: normal
+      img
+        +box-shadow(0,0,6px,#aaa)
+        height: 36px
+        vertical-align: middle
+        border: 3px solid white
+        margin-right: .5em
+      em
+        font-style: normal
+        font-weight: normal
+        color: #666
+      a
+        color: #0099ff
+      a.twitter
+        color: #0099ff
+        float: right
+        padding: 0.5em 0
+        font:
+          size: 14px
+          weight: 500
     p
-      padding: 0 !important
+      padding: 0
   dd
     margin: 0
     padding: 0
-    p.about, p
-      padding: 0 !important
+    p, p.about
+      padding: 0
       margin: .5em 0
-    h6
-      text:
-        shadow: 0 1px 0 $light
-        transform: uppercase
-      font-weight: 900
+      font-size: 13px
+      span
+        text:
+          shadow: 0 1px 0 $light
+          transform: uppercase
+        font-weight: 900
+        color: #000
+      a
+        text-shadow: 0 -1px 0 $dark
+        color: #0099ff
+        &:hover
+          text-decoration: underline
+          color: #0099ff
+        &:active
+          color: #0099ff - #222
+          position: relative
+          top: 1px
+  &.last_edition
+    dt
+      font-size: 18px
+      .by_line
+        +rounded(0px)
+        padding: 0
+        background-color: transparent
+        color: #fff
+        text-shadow: 0 0px 0 transparent
+        font:
+          size: 1em
+          weight: 500
+          style: normal
 .slide_wrapper
   text-align: center
   .slide
@@ -271,3 +340,5 @@ dl.keynotes
       &:hover, &:active
         text-decoration: underline
         color: #fff
+.centered
+  text-align: center

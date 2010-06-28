@@ -15,10 +15,10 @@
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'
     = javascript_include_tag 'tweet/jquery.tweet.js'
     = javascript_include_tag 'tweet/tweet_configuration.js'
-    %link{ :rel => 'icon', :href => 'favicon.ico' }
-  %body
+    %link{ :rel => 'icon', :href => 'favicon.png', :type => 'image/png' }
+  %body{:id => @body_id}
     %header= render :partial => 'layouts/site/header'
-    #main= yield
+    %section#main= yield
     %footer= render :partial => 'layouts/site/footer'
     :javascript 
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

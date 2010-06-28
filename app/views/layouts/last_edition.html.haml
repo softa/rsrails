@@ -13,10 +13,10 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'
     = yield :head
-    %link{ :rel => 'icon', :href => 'favicon.ico' }
+    %link{ :rel => 'icon', :href => 'favicon.png', :type => 'image/png' }
   %body
     %header= render :partial => 'layouts/last_edition/header'
-    #main= yield
+    %section#main= yield
     %footer= render :partial => 'layouts/last_edition/footer'
     :javascript 
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

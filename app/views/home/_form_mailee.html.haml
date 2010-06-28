@@ -1,27 +1,13 @@
-%form#mailee-form{ :method => :post, :action => "https://rsrails.mailee.me/go/add_contact_form", :style => 'display:none' }
+%form#mailee-form{ :method => :post, :action => "https://rsrails.mailee.me/go/add_contact_form" }
   %input{ :name => "key", :type => "hidden", :value => "a0e56e" }
   %input{ :name => "url_ok", :type => "hidden", :value => mailee_ok_url }
   %input{ :name => "url_error", :type => "hidden", :value => mailee_error_url }
   %input{ :name => "list[]", :type => "hidden", :value => "22147" }
   %fieldset
-    %h2 Cadastre nome e email no formulário abaixo para receber novidades sobre o evento.
-    .label
-      %label{ :for => :name } Nome:
-    .input
-      %input#name{ :name => :name, :type => :text }
-    .clear
+    %h3 Inscreva-se para receber novidades sobre o evento
+    %input#name{ :name => :name, :type => :text, :placeholder => 'Nome completo' }
+    %input#email{ :name => :email, :type => :text, :placeholder => 'Endereço de email'}
+    %button.button.save_my_ticket{ :type => :submit } Assine a newsletter
     %br
-    .label
-      %label{ :for => :email }
-        Email:
-    .input
-      %input#email{ :name => :email, :type => :text }
-    .clear
-    %br
-    .submit
-      %button.button{ :type => :submit } Cadastrar
-    %br
-    .newsletter{:style =>'text-align:right;'}
-      Powered by
-      = link_to 'Mailee.me', 'http://www.mailee.me/', :style => 'color:#0066ff'
+    Powered by #{link_to('Mailee.me', 'http://www.mailee.me/', :style => 'color:#0066ff')}
 = javascript_include_tag 'mailee_form.js'

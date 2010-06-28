@@ -16,29 +16,33 @@
       display: inline
       padding: .5em
       &.icon
-        a:hover
-          +box-shadow(0,0,0,transparent)
-          background-color: transparent !important
+        a
+          &:hover
+            +box-shadow(0,0,0,transparent)
+            background-color: transparent !important
+          &:active
+            top: 0
       a
         display: block
         float: left
         cursor: pointer
-        color: #333
         padding: .25em .5em
         margin: .75em
         font:
           weight: bolder
           size: 14px
-        text-shadow: 0 1px 0 $light
+        text-shadow: 0 1px 0 #fff
+        color: #000
         &:hover, &.current_view, &:active
           +rounded(4px)
           +box-shadow(0,1px,1px,rgba(255,255,255,.4))
           text-decoration: none
-          background: #900
+          background-color: $rsrails_color
           color: white
           text-shadow: 0 -1px 0 $dark
         &:active
-          color: #f00
+          position: relative
+          top: 1px
         &.right_aligned
           float: right
         &.img

@@ -2,3 +2,5 @@
 .rvmrc
 .DS_Store
 log/
+tmp/sass-cache/*
+public/stylesheets/compiled/*

@@ -1,31 +1,30 @@
-%section
-  %h1 RS on Rails · Segunda Edição
+- @body_id = "index"
+%section.home
+  %h1 RS on Rails 2010
   %p.alert
     A segunda edição do RS on Rails já está marcada para dia
     %br
     %strong 21 de agosto de 2010
-  %p Ainda não temos local definido para o evento, porém já adiantamos que o local desse ano deverá ser maior e mais bem equipado que o do ano anterior (com tomadas elétricas e wi-fi para todos).
-  %p O evento seguirá os moldes da 1ª edição, com duração aproximada de 12h (pausando para dois coffee breaks e almoço) e apresentação de palestras.
+    %br
+    Como no ano passado, o evento será realizado na PUC-RS.
+  %p O evento seguirá os moldes da 1ª edição, com duração aproximada de 12h (com pausas para coffee break e almoço) e apresentação de palestras.
   %p Após o sucesso da primeira edição o evento se consolida como parada obrigatória para desenvolvedores Rails, um evento único no sul do Brasil.
-  %hr
-  %p Fique de olho na seção #{link_to 'Twitter Feed »', follow_event_path, :style =>'color:#df2f2f;'}. Ela concentra <em>trending topics</em>, novidades e promoções sobre o evento, assim como informações relacionadas ao Rails no Brasil.
+  %br
+  %p Fique de olho na seção #{link_to 'Twitter Feed »', follow_event_path}. Ela concentra <em>trending topics</em>, novidades e promoções sobre o evento, assim como informações relacionadas ao Rails no Brasil.
   %p Em breve mais novidades. Aguarde!
-%aside
+%aside.home
   %h6 RS on Rails · 1ª Edição
-  - link_to last_edition_photos_path, :class => :last_edition_thumbnail do
-    = image_tag 'photos/rsonrails-1-05_thumb.jpg'
+  - link_to last_edition_photos_path, :class => :thumbnail do
+    = image_tag 'photos/rsonrails-1-05_thumb_small.jpg'
     %br
     %strong.loud veja as fotos da primeira edição »
   %br
-  = link_to 'Confira as palestras apresentadas em 2009 »', last_edition_keynotes_path
+  %p #{link_to('Clique aqui', last_edition_keynotes_path)} e confira as palestras apresentadas em 2009.
   %hr
-  %h6 Ruby on Rails
-  %p #{link_to 'Ruby on Rails', 'http://rubyonrails.org/'}, ou apenas Rails ou RoR, é um framework para desenvolvimento de aplicações web criado por #{link_to 'David Heinemeier Hansson', 'http://www.loudthinking.com/'}, da empresa #{link_to '37signals', 'http://37signals.com/'}, e publicado em fevereiro de 2005. #{link_to 'Mais informações »', 'http://pt.wikipedia.org/wiki/Ruby_on_Rails'}
+  .centered
+    = link_to image_tag('fisl_180x150.jpg'), 'http://softwarelivre.org/fisl11', :title => 'FISL 11 - Software Livre Brasil', :class => 'thumbnail'
 .clear
 %hr
 = render :partial => 'flash', :locals => { :flash => flash }
-.centralized_button
-  %button.button.save_my_ticket Assine a newsletter
-  .clear
 = render :partial => 'form_mailee'
 = javascript_include_tag 'home/index'
