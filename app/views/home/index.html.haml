@@ -1,25 +1,22 @@
 - @body_id = "index"
 %section.home
-  %h1 RS on Rails 2010
+  %h1 RS on Rails 2010 — 2ª Edição
   %p.alert
-    A segunda edição do RS on Rails já está marcada para dia
+    %strong 21 de Agosto
     %br
-    %strong 21 de agosto de 2010
-    %br
-    Como no ano passado, o evento será realizado na PUC-RS.
+    %strong Local: PUCRS
   %p O evento seguirá os moldes da 1ª edição, com duração aproximada de 12h (com pausas para coffee break e almoço) e apresentação de palestras.
-  %p Após o sucesso da primeira edição o evento se consolida como parada obrigatória para desenvolvedores Rails, um evento único no sul do Brasil.
+  %p Após o sucesso da primeira edição o evento se consolida como um evento único no sul do Brasil, sendo parada obrigatória para desenvolvedores Rails.
   %br
   %p Fique de olho na seção #{link_to 'Twitter Feed »', follow_event_path}. Ela concentra <em>trending topics</em>, novidades e promoções sobre o evento, assim como informações relacionadas ao Rails no Brasil.
   %p Em breve mais novidades. Aguarde!
 %aside.home
-  %h6 RS on Rails · 1ª Edição
+  %h6 RS on Rails 2009 — 1ª Edição
+  %p #{link_to('Clique aqui', last_edition_keynotes_path)} e confira as <strong>palestras</strong> apresentadas em 2009.
   - link_to last_edition_photos_path, :class => :thumbnail do
     = image_tag 'photos/rsonrails-1-05_thumb_small.jpg'
     %br
-    %strong.loud veja as fotos da primeira edição »
-  %br
-  %p #{link_to('Clique aqui', last_edition_keynotes_path)} e confira as palestras apresentadas em 2009.
+    Veja fotos da primeira edição »
   %hr
   .centered
     = link_to image_tag('fisl_180x150.jpg'), 'http://softwarelivre.org/fisl11', :title => 'FISL 11 - Software Livre Brasil', :class => 'thumbnail'

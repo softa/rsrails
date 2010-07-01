@@ -3,7 +3,7 @@ $(document).ready(function(){
     query: ["rsrails OR rsonrails OR railsrs OR railsonrs OR railsbr OR brrails"],
     join_text: "auto",
     avatar_size: 48,
-    count: 15,
+    count: 20,
     auto_join_text_default: "disse,",
     auto_join_text_ed: "",
     auto_join_text_ing: "",
@@ -23,4 +23,18 @@ $(document).ready(function(){
     auto_join_text_url: "",
     loading_text: "Buscando mensagens..."
   });
+  $(".speakers_tweets").tweet({
+    query: ["from:AkitaOnRails OR from:tbueno OR from:zukunftsalick OR from:cantoniodasilva OR from:divoxx OR from:dwildt"],
+    join_text: "auto",
+    avatar_size: 48,
+    count: 9,
+    auto_join_text_default: "disse,",
+    auto_join_text_ed: "",
+    auto_join_text_ing: "",
+    auto_join_text_reply: "resposta para",
+    auto_join_text_url: "",
+    loading_text: "Buscando mensagens..."
+  });
+
 });
+

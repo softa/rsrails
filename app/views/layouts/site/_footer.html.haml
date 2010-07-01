@@ -1,12 +1,16 @@
 %hr
+#sponsors
+  %h6 Patrocínio · #{link_to 'Saiba como patrocinar »', sponsorship_path}
+  = link_to image_tag('sponsors/targettrust_17anos.png'), 'http://www.targettrust.com.br/', :target => :_blank, :title => 'T@rgetTrust'
+  %br
+  = link_to image_tag('sponsors/maileeme.png'), 'http://www.mailee.me/', :target => :_blank, :title => 'Mailee · Email Marketing 2.0'
+  %br
+  = link_to image_tag('sponsors/softa.png'), 'http://www.softa.com.br/', :target => :_blank, :title => 'Softa · Aplicações web 2.0 com Ruby on Rails e PostgreSQL'
+#supporters
+  %h6 Apoio
+  = link_to image_tag('sponsors/plataforma.png'), 'http://plataformatec.com.br/', :title => 'Plataforma Tecnologia e Engenharia de Software'
 #event_by
   %h6 Realização
   = link_to image_tag('gruporailsrs.png'), who_we_are_path, :title => 'Grupo RS on Rails'
-#supporters
-  %h6 Apoio
-  = render :partial => 'shared/supporters'
-#sponsors
-  %h6 Patrocínio · #{link_to 'Saiba como patrocinar »', sponsorship_path}
-  = render :partial => 'shared/sponsors'
 .clear
 = render :partial => 'shared/colophon'

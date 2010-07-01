@@ -12,28 +12,47 @@ body
       top: 1px solid $dark
       bottom: 1px solid $light
   a, a:visited
-    color: #ccc
+    color: #0af
+    text-shadow: 0 1px 0 #444
     cursor: pointer
     text-decoration: none
     white-space: nowrap
     &:hover
+      color: #0af
       text-decoration: underline
-      color: #fff
     &:active
-      color: #aaa
+      color: #08d
+      position: relative
+      top: 1px
+    &.thumbnail
+      +rounded(.5em)
+      background: #ddd
+      margin: .5em 0 0 0
+      text-shadow: 0 0 0 transparent
+      padding: 20px
+      text-align: center
+      display: block
+      cursor: pointer
+      text-decoration: none
+      &:hover
+        text-decoration: none
+        background: white
+      &:active
+        top: 0
+        background: #ccc
+      img
+        +box-shadow(0, 0, 6px, $dark)
+        border: 1px solid #888
   h1, h2, h3, h4, h5, h6
     img
       vertical-align: middle
   h1
     margin: 0 0 1em 0
-    shadow: 0 1px 0 $light, 0 -1px 0 $dark
-    color: #000000
+    color: black
+    text-shadow: 0 1px 0 #777
     font:
       size: 40px
       weight: 900
-    text:
-      shadow: 0 1px 0 rgba(255,255,255,.4)
-      transform: uppercase
   h2
     font:
       size: 30px
@@ -43,12 +62,36 @@ body
     font:
       size: 18px
       weight: 900
-    text-shadow: 0 1px 0 rgba(255,255,255,.4)
+    text-shadow: 0 -1px 0 #000
     margin: 1.5em 0 1em 0
-    color: black
+    color: white
+  h4
+    color: white
+    font:
+      size: 1.25em
+      weight: 100
+    text-shadow: 0 -1px 0 $dark, 0 1px 0 $light
+    a
+      font:
+        family: $blueprint_font_family
+        size: .75em
+        weight: 100
+        style: italic
+      text-shadow: 0 -1px 0 $dark, 0 1px 0 $light
+      color: #111 !important
+      &:hover
+        color: white !important
   h6
+    color: #111
     text-shadow: 0 1px 0 $light
-    color: #000
+    margin-bottom: 1em
+    a
+      color: #111 !important
+      font-weight: normal
+      text-shadow: 0 1px 0 $light !important
+      &:hover
+        color: #fff !important
+        text-shadow: 0 -1px 0 $dark
   p
     font:
       size: 14px
@@ -65,9 +108,6 @@ body
       strong
         color: #fff
         font-size: 2em
-        a
-          text-decoration: underline
-          font-weight: 100
   header
     +container
     display: block
@@ -80,11 +120,6 @@ body
       +span(11, last)
       +float-left
       margin-top: 48px
-    p
-      color: #bbb
-      margin: 1em 0
-      a, a:visited
-        text-decoration: underline
   section
     &#main
       +container
@@ -99,107 +134,56 @@ body
         +append(1)
         +float-left
         +last
-    &.keynotes_list, &.home, &.follow_event, &.last_edition_home, &.sponsorship, &.who_we_are
+    &.keynotes_list, &.cases_list, &.lightning_talks_list
+      +span(24, last)
+      +float-left
+    &.follow_event, &.last_edition_home, &.sponsorship, &.who_we_are
       +span(15, last)
       +append(1)
       +float-left
-    &.cases_list, &.lightning_talks_list
-      +span(24, last)
+    &.home
+      +span(17, last)
+      +append(1)
       +float-left
     &.last_edition_keynotes
       +span(15)
       +append(1)
       +float-left
     aside
-      &.keynotes_schedule, &.home, &.follow_event_sidebar, &.last_edition_schedule, &.current_sponsors, &.rs_rails_group
+      &.keynotes_schedule, &.follow_event_sidebar, &.last_edition_schedule, &.current_sponsors, &.rs_rails_group
         +span(8)
         +float-left
         +last
-      h6
-        margin-bottom: 2em
+      &.home
+        +span(6)
+        +float-left
+        +last
       p
         font:
           size: 12px
         color: white
         text-shadow: 0 -1px 0 $dark
-        a
-          text-decoration: underline
-          font-weight: 100
-    a.thumbnail
-      +rounded(.5em)
-      background: #ddd
-      color: $dark
-      margin: .5em 0 0 0
-      padding: 20px
-      text-align: center
-      display: block
-      cursor: pointer
-      text-decoration: none
-      &:hover
-        text-decoration: none
-        background: white
-        color: black
-      img
-        +box-shadow(0, 0, 2px, $dark)
-        border: 1px solid #888
-    h4
-      color: white
-      font:
-        size: 1.25em
-        weight: 100
-      text-shadow: 0 -1px 0 $dark, 0 1px 0 $light
-      a
-        font:
-          family: $blueprint_font_family
-          size: .75em
-          weight: 100
-          style: italic
-        text-shadow: 0 -1px 0 $dark, 0 1px 0 $light
-        color: #111 !important
-        &:hover
-          color: white !important
   footer
     +container
     color: white
     display: block
     #sponsors
-      +span(12)
+      +span(10)
       +float-left
       img
         margin: 10px
         vertical-align: middle
-        width: 100px
     #supporters
-      +span(6)
+      +span(8)
       +float-left
     #event_by
       +span(6, last)
       +float-left
       img
-        width: 140px
         margin: 10px 0
-    h6
-      color: #111
-      text-shadow: 0 1px 0 $light
-      a
-        color: #111 !important
-        font-weight: 100
-        text-shadow: 0 1px 0 $light
-        &:hover
-          color: #fff !important
-          text-shadow: 0 -1px 0 $dark
     #colophon
       color: #888
       text-shadow: #000 0 -1px 0
-ol#sponsors_list
-  list-style: none
-  margin: 0
-  li
-    display: inline
-    a img
-      margin: 10px
-      vertical-align: middle
-      width: 100px
 .alternate
   font:
     family: Baskerville, Palatino, 'Book Antiqua', serif
@@ -229,7 +213,7 @@ table.schedule
       text-align: right
     th, td
       text-shadow: 0 1px 0 $dark
-      padding: .25em .5em
+      padding: .5em
       color: white
       font-weight: 100
       border:
@@ -243,73 +227,114 @@ table.schedule
     &:last-child
       th, td
         border-bottom: 0 none
-dl.keynotes
+ul.keynotes
   list-style: none
-  dt
+  margin: 0
+  padding: 0
+  li
+    margin: 0 0 8em 0
     padding: 0
-    margin: 3em 0 .5em 0
     color: white
     text-shadow: 0 -1px 0 $dark
-    h2
-      color: #ddd
-      text-shadow: 0 -1px 0 #000
-      font:
-        weight: 900
-        size: 22px
-    .by_line
-      +rounded(6px)
-      padding: 12px
-      background-color: #ddd
-      color: #000
-      text-shadow: 0 1px 0 #fff
-      font:
-        size: 1.25em
-        weight: 900
-        style: normal
-      img
-        +box-shadow(0,0,6px,#aaa)
-        height: 36px
-        vertical-align: middle
-        border: 3px solid white
-        margin-right: .5em
-      em
-        font-style: normal
-        font-weight: normal
-        color: #666
-      a
-        color: #0099ff
-      a.twitter
-        color: #0099ff
-        float: right
-        padding: 0.5em 0
+    .keynote_info
+      +span(14, last)
+      +append(1)
+      +float-left
+      h3
+        color: #fff
+        text-shadow: 0 -1px 0 #000
+        margin: 0 0 1em 0
+        padding: 0
         font:
-          size: 14px
-          weight: 500
-    p
-      padding: 0
-  dd
-    margin: 0
-    padding: 0
-    p, p.about
-      padding: 0
-      margin: .5em 0
-      font-size: 13px
-      span
-        text:
-          shadow: 0 1px 0 $light
-          transform: uppercase
-        font-weight: 900
-        color: #000
-      a
-        text-shadow: 0 -1px 0 $dark
-        color: #0099ff
-        &:hover
-          text-decoration: underline
+          weight: 900
+          size: 16px
+      p
+        padding: 0 0 0.5em 0
+        margin: 0
+        font:
+          size: 13px
+          weight: normal
+        color: #ddd
+        text-shadow: 0 -1px 0 #000
+        a
+          text-shadow: 0 -1px 0 $dark
           color: #0099ff
-        &:active
-          color: #0099ff - #222
-          position: relative
-          top: 1px
+          &:hover
+            text-decoration: underline
+            color: #0099ff
+          &:active
+            color: #0099ff - #222
+            position: relative
+            top: 1px
+    .keynote_author
+      +span(9)
+      +float-left
+      hr
+        margin: 1em 0
+      .wrapper
+        padding: 12px
+        +rounded(6px)
+        background-color: #ddd
+        color: #000
+        text-shadow: 0 1px 0 #fff
+        font:
+          size: 1.25em
+          weight: 900
+          style: normal
+        img.avatar
+          +box-shadow(0,0,6px,#aaa)
+          max-height: 36px
+          max-width: 36px
+          vertical-align: middle
+          border: 3px solid white
+          margin-right: .5em
+          float: left
+        p
+          color: #000
+          text:
+            align: right
+            shadow: #fff 0 1px 0
+          float: right
+          padding: 0
+          margin: 0
+          font-size: 12px
+          width: 140px
+          overflow: hidden
+          a
+            display: block
+            color: #0099ff
+            width: 140px
+            overflow: hidden
+            text-shadow: #fff 0 1px 0
+            text-overflow: ellipsis
+        em
+          font-style: normal
+          font-weight: normal
+          color: #666
+        a.twitter
+          +rounded(3px)
+          color: #0099ff
+          padding: 0.5em
+          margin-top: 1em
+          display: block
+          background-color: #fff
+          text-shadow: #fff 0 1px 0
+          font:
+            size: 14px
+            weight: 900
+          &:hover
+            text-decoration: none
+          &:active
+            text-decoration: none
+          img
+            vertical-align: middle
+            padding: 4px
+    p.author_bio
+      margin: .5em 0
+      padding: 0 .5em
+      font-size: 11px
+      color: white
+      text-shadow: 0 -1px 0 #000
   &.last_edition
     dt
       font-size: 18px

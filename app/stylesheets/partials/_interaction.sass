@@ -6,7 +6,7 @@
 !notice_bg_color          ||= #ffcc00
 
 !failure_color            ||= #ffffff
-!failure_bg_color         ||= #ff3355
+!failure_bg_color         ||= #cc2222
 
 !light       = rgba(255,255,255,.2)
 !dark        = rgba(0,0,0,.3)
@@ -49,7 +49,7 @@
   a
     :color      = !success_color
 
-.rsrails_tweets, .rsonrails_group_tweets
+.rsrails_tweets, .rsonrails_group_tweets, .speakers_tweets
   font:
     size: 1em
   color: #fff
@@ -69,8 +69,8 @@
       &:first-child
         +rounded_top(6px)
       a
-        color: #468
         font-weight: 900
+        text-shadow: 0 1px 0 white !important
     .tweet_even
       background-color: #ccc
     .tweet_avatar
@@ -109,6 +109,8 @@ ul.speaker_twitter, ul.sponsors_twitter, ul.grupo_rsonrails
         text-shadow: 0 1px 0 #fff !important
         span.go
           visibility: visible
+      span.twitter
+        color: #777
       span.go
         visibility: hidden
         color: #666
@@ -117,6 +119,7 @@ ul.speaker_twitter, ul.sponsors_twitter, ul.grupo_rsonrails
         top: 1.5em
       img.avatar
         +box-shadow(0, 0, 3px, rgba(0,0,0,.5))
+        background-color: white
         vertical-align: middle
         height: 24px
         margin-right: .5em

@@ -2,6 +2,84 @@
 %section.follow_event
   %h4 #{image_tag('social/twitter_32.png')} Seguindo: #rsonrails, #rsrails, #railsrs, #railsbr
   .rsrails_tweets
+  %hr
+  %h4 #{image_tag('social/twitter_32.png')} Seguindo os palestrantes do RS on Rails
+  .speakers_tweets
 %aside.follow_event_sidebar
+  %h6 Palestrantes
+  %br
+  %ul.speaker_twitter
+    %li
+      - link_to 'http://www.twitter.com/AkitaOnRails' do
+        #{image_tag('http://a1.twimg.com/profile_images/483721382/4015270661_1d44744ac4_o_normal.jpg', :class => 'avatar')} Fábio Akita
+        %span.twitter @AkitaOnRails
+        %span.go= image_tag 'more.png'
+      .clear
+    %li
+      - link_to 'http://www.twitter.com/tbueno' do
+        #{image_tag('http://a1.twimg.com/profile_images/555087560/me_normal.jpeg', :class => 'avatar')} Tiago Bueno
+        %span.twitter @tbueno
+        %span.go= image_tag 'more.png'
+      .clear
+    %li
+      - link_to 'http://www.twitter.com/zukunftsalick' do
+        #{image_tag 'http://a1.twimg.com/profile_images/473287948/pedro_barcelona_rosto_bigger.jpg', :class => 'avatar'} Pedro Pimentel
+        %span.twitter @zukunftsalick
+        %span.go= image_tag 'more.png'
+      .clear
+    %li
+      - link_to 'http://www.twitter.com/cantoniodasilva' do
+        #{image_tag 'http://a3.twimg.com/profile_images/398519669/carlos240_bigger.jpg', :class => 'avatar'} Carlos Antonio
+        %span.twitter @cantoniodasilva
+        %span.go= image_tag 'more.png'
+      .clear
+    %li
+      - link_to 'http://www.twitter.com/divoxx' do
+        #{image_tag 'http://a3.twimg.com/profile_images/481709123/Brasil_verao_2009_216_bigger.JPG', :class => 'avatar'} Rodrigo Kochenburger
+        %span.twitter @divoxx
+        %span.go= image_tag 'more.png'
+      .clear
+    %li
+      - link_to 'http://www.twitter.com/dwildt' do
+        #{image_tag 'http://a3.twimg.com/profile_images/344531419/wildt_xsmall_bigger.jpg', :class => 'avatar'} Daniel Wildt
+        %span.twitter @dwildt
+        %span.go= image_tag 'more.png'
+      .clear
+    %li
+      - link_to 'http://www.twitter.com/TRE_RS' do
+        #{image_tag "http://a3.twimg.com/profile_images/817909499/bandeira_bigger.jpg", :class => 'avatar'} TRE-RS
+        %span.twitter @TRE_RS
+        %span.go= image_tag 'more.png'
+      .clear
+    %li
+      - link_to 'http://www.twitter.com/tatri_imoveis' do
+        #{image_tag "http://a3.twimg.com/profile_images/978688445/tatri_logo_png8_150_bigger.png", :class => 'avatar'} Tá Tri Imóveis
+        %span.twitter @tatri_imoveis
+        %span.go= image_tag 'more.png'
+      .clear
+  %hr
   %h6 Patrocinadores
-  = render :partial => 'shared/sponsors_list'
+  %ul.sponsors_twitter
+    %li
+      - link_to 'http://www.targettrust.com.br/' do
+        = image_tag 'http://a3.twimg.com/profile_images/508578123/LOGO_ORKUT_bigger.jpg', :class => 'avatar'
+        targettrust.com.br
+        %span.go= image_tag 'more.png'
+    %li
+      - link_to 'http://www.mailee.me/' do
+        = image_tag 'http://a1.twimg.com/profile_images/115287492/twitter_bigger.png', :class => 'avatar'
+        mailee.me
+        %span.go= image_tag 'more.png'
+    %li
+      - link_to 'http://www.softa.com.br/' do
+        = image_tag 'softa_icon.png', :class => 'avatar', :style => 'background:white;'
+        softa.com.br
+        %span.go= image_tag 'more.png'
+  %hr
+  %h6 Apoio
+  %ul.sponsors_twitter
+    %li
+      - link_to 'http://plataformatec.com.br/' do
+        = image_tag 'http://a1.twimg.com/profile_images/366438596/pthumb_bigger.png', :class => 'avatar'
+        plataformatec.com.br
+        %span.go= image_tag 'more.png'

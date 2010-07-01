@@ -4,10 +4,10 @@
   %input{ :name => "url_error", :type => "hidden", :value => mailee_error_url }
   %input{ :name => "list[]", :type => "hidden", :value => "22147" }
   %fieldset
-    %h3 Inscreva-se para receber novidades sobre o evento
+    %h3 Receba novidades sobre o RS on Rails em seu email
     %input#name{ :name => :name, :type => :text, :placeholder => 'Nome completo' }
     %input#email{ :name => :email, :type => :text, :placeholder => 'Endereço de email'}
-    %button.button.save_my_ticket{ :type => :submit } Assine a newsletter
+    %button.button.save_my_ticket{ :type => :submit } Assinar a newsletter
     %br
     Powered by #{link_to('Mailee.me', 'http://www.mailee.me/', :style => 'color:#0066ff')}
 = javascript_include_tag 'mailee_form.js'
