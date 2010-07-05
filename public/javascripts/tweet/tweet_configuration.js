@@ -12,7 +12,7 @@ $(document).ready(function(){
     loading_text: "Buscando mensagens..."
   });
   $(".rsonrails_group_tweets").tweet({
-    query: ["from:pedroaxl OR from:joaomilho OR from:leotartari OR from:dbiazus OR from:danielweinmann OR from:felipebcabral"],
+    username: ["pedroaxl","joaomilho","leotartari","dbiazus","danielweinmann","felipebcabral"],
     join_text: "auto",
     avatar_size: 48,
     count: 9,
@@ -24,7 +24,7 @@ $(document).ready(function(){
     loading_text: "Buscando mensagens..."
   });
   $(".speakers_tweets").tweet({
-    query: ["from:AkitaOnRails OR from:tbueno OR from:zukunftsalick OR from:cantoniodasilva OR from:divoxx OR from:dwildt"],
+    username: ["AkitaOnRails","tbueno","zukunftsalick","cantoniodasilva","divoxx","dwildt"],
     join_text: "auto",
     avatar_size: 48,
     count: 9,

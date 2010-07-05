@@ -96,6 +96,7 @@ body
     font:
       size: 14px
     color: white
+    -webkit-text-stroke: 1px transparent
     padding: 0
     text-shadow: 0 -1px 0 $dark
     &.alert
@@ -167,20 +168,23 @@ body
     +container
     color: white
     display: block
-    #sponsors
-      +span(10)
-      +float-left
+    #sponsors, #supporters, #event_by
       img
-        margin: 10px
+        margin-bottom: 30px
         vertical-align: middle
+    #sponsors
+      +span(14)
+      +float-left
+      .sponsor_box
+        +span(6)
+        +float-left
+        text-align: center
     #supporters
-      +span(8)
+      +span(7)
       +float-left
     #event_by
-      +span(6, last)
+      +span(3, last)
       +float-left
-      img
-        margin: 10px 0
     #colophon
       color: #888
       text-shadow: #000 0 -1px 0
@@ -252,7 +256,6 @@ ul.keynotes
         padding: 0 0 0.5em 0
         margin: 0
         font:
-          size: 13px
           weight: normal
         color: #ddd
         text-shadow: 0 -1px 0 #000
@@ -283,8 +286,8 @@ ul.keynotes
           style: normal
         img.avatar
           +box-shadow(0,0,6px,#aaa)
-          max-height: 36px
-          max-width: 36px
+          max-height: 48px
+          max-width: 48px
           vertical-align: middle
           border: 3px solid white
           margin-right: .5em
@@ -297,7 +300,6 @@ ul.keynotes
           float: right
           padding: 0
           margin: 0
-          font-size: 12px
           width: 140px
           overflow: hidden
           a
@@ -332,7 +334,7 @@ ul.keynotes
     p.author_bio
       margin: .5em 0
       padding: 0 .5em
-      font-size: 11px
+      font-size: 12px
       color: white
       text-shadow: 0 -1px 0 #000
   &.last_edition

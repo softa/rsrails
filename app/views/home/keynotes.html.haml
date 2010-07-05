@@ -27,7 +27,6 @@
             Tiago Bueno
             %br
             <em>#{link_to 'ThoughtWorks', 'http://www.thoughtworks.com/', :target => :_blank}</em>
-            %br
             = link_to "tbueno.com", "http://tbueno.com/", :target => :_blank
           .clear
           = twitter_profile "tbueno"
@@ -36,7 +35,7 @@
     %li
       .keynote_info
         %h3 Ruby-Raid - Porque ruby pode ser divertido sem r***s!
-        %p Muito se fala em desenvolvimento de jogos cada vez mais realistas, com engines gráficas poderosas e linguagens compiladas para obter o máximo de desempenho. Mas as vezes você apenas quer apenas se divertir desenvolvendo seu joguinho 2D de plataforma e mesmo assim precisa aprender bibliotecas nada divertidas para isso. Então porque não programar seus jogos em ruby?  Não espere desenvolver jogos mirabolantes em 3D, mas com certeza espere muita diversão e facilidade de aprender o framework (até mesmo para quem não sabe nada de jogos). Logo entenderá que desenvolver jogos também pode ser tão divertido quanto desenvolver em r***s. Aproveitando a oportunidade, conhecerão também o ruby-raid, um jogo especialmente desenvolvido para esta palestra baseado em tutoriais disponíveis na internet.
+        %p Muito se fala em desenvolvimento de jogos cada vez mais realistas, com engines gráficas poderosas e linguagens compiladas para obter o máximo de desempenho. Mas as vezes você apenas quer apenas se divertir desenvolvendo seu joguinho 2D de plataforma e mesmo assim precisa aprender bibliotecas nada divertidas para isso. Então porque não programar seus jogos em ruby? Não espere desenvolver jogos mirabolantes em 3D, mas com certeza espere muita diversão e facilidade de aprender o framework (até mesmo para quem não sabe nada de jogos). Logo entenderá que desenvolver jogos também pode ser tão divertido quanto desenvolver em r***s. Aproveitando a oportunidade, conhecerão também o ruby-raid, um jogo especialmente desenvolvido para esta palestra baseado em tutoriais disponíveis na internet.
       .keynote_author
         .wrapper
           = image_tag 'http://a1.twimg.com/profile_images/473287948/pedro_barcelona_rosto_bigger.jpg', :class => 'avatar'
@@ -46,6 +45,10 @@
             = link_to 'pedropimentel.com', 'http://www.pedropimentel.com/', :target => :_blank
           .clear
           = twitter_profile "zukunftsalick"
+        %p.author_bio
+          Pedro likes to live on the edge, always trying to deliver user driven applications rather than feature bloated applications. He’s actively using Ruby/Rails in various projects in the last 4 years naturally focusing on developing large web applications integrating top notch tools. He is also proud of being a adept of TDD which lets him spend more time creating and trying out new things rather than fixing bugs.
+          %br
+          While he’s not working, you can probably find him cooking, playing Xbox or backpacking in some southeast Asian country.
       .clear
     %li
       .keynote_info
@@ -60,12 +63,28 @@
             = link_to "blog.divoxx.com", "http://blog.divoxx.com/", :target => :_blank
           .clear
           = twitter_profile "divoxx"
-        %p.author_bio Open Source lover and contributer, he is deeply involved in the Ruby and Rails community and didn't contributed only with code. He is one of the heads behind the RailsRumble, a world wide RubyOnRails competition that takes place over the internet, contributing to the technology dissemination.
+        %p.author_bio Amante e contribuinte do Open Source, ele está profundamente envolvido com a comunidade de Ruby on Rails e não contribuí com código apenas. Ele é uma das cabeças por trás do RailsRumble, uma competição mundial de Ruby On Rails que acontece através da internet, contribuindo com a disseminação de tecnologia.
+      .clear
+    %li
+      .keynote_info
+        %h3 Proteja sua aplicação Rails
+        %p Com algumas dicas em mente e pouco esforço, é possível tornar sua aplicação web bastante segura, e o Rails já oferece diversas ferramentas e funcionalidades para lhe ajudar nesta tarefa. Conheça as principais e mais recentes formas de ataque e saiba como proteger sua amada aplicação web contra intrusos indesejáveis.
+      .keynote_author
+        .wrapper
+          = image_tag 'http://a3.twimg.com/profile_images/344531419/wildt_xsmall_bigger.jpg', :class => 'avatar'
+          %p
+            Julio Monteiro
+            %br
+            <em>#{link_to "rubyonrails.pro.br", "http://www.rubyonrails.pro.br/", :target => :_blank}</em>
+            = link_to "monteiro.eti.br", "http://monteiro.eti.br/", :target => :_blank
+          .clear
+          = twitter_profile "jmonteiro"
+        %p.author_bio Júlio Monteiro (jmonteiro) atua fortemente com Ruby on Rails desde 2006, estando envolvido com a comunidade deste framework desde então. É arquiteto de software na Euax Gestão de Projetos e professor do curso de Ruby on Rails no SENAC/SC, já tendo também ministrado palestras envolvendo a linguagem de programação Ruby. É também graduando no Bacharel em Ciências da Computação na Universidade do Estado de Santa Catarina, atuando no grupo de pesquisa em Software Livre COLMÉIA.
       .clear
     %li
       .keynote_info
         %h3 Rails 3
-        -# %p
+        %p
       .keynote_author
         .wrapper
           = image_tag 'http://a3.twimg.com/profile_images/398519669/carlos240_bigger.jpg', :class => 'avatar'
@@ -81,7 +100,7 @@
     %li
       .keynote_info
         %h3 Cloud e as opções do Google para desenvolvedores RoR
-        -# %p
+        %p
       .keynote_author
         .wrapper
           = image_tag 'http://a3.twimg.com/profile_images/344531419/wildt_xsmall_bigger.jpg', :class => 'avatar'
@@ -93,21 +112,6 @@
             = link_to "danielwildt.com", "http://www.danielwildt.com/", :target => :_blank
           .clear
           = twitter_profile "dwildt"
-      .clear
-    %li
-      .keynote_info
-        %h3 A definir.
-        -# %p
-      .keynote_author
-        .wrapper
-          = image_tag 'http://a3.twimg.com/profile_images/344531419/wildt_xsmall_bigger.jpg', :class => 'avatar'
-          %p
-            Julio Monteiro
-            %br
-            <em>#{link_to "rubyonrails.pro.br", "http://www.rubyonrails.pro.br/", :target => :_blank}</em>
-            = link_to "monteiro.eti.br", "http://monteiro.eti.br/", :target => :_blank
-          .clear
-          = twitter_profile "jmonteiro"
       .clear
 .clear
 %hr
@@ -122,8 +126,6 @@
         .wrapper
           = image_tag "http://a3.twimg.com/profile_images/817909499/bandeira_bigger.jpg", :class => 'avatar'
           %p
-            
-            %br
             = link_to 'tre-rs.gov.br', 'http://www.tre-rs.gov.br/', :target => :_blank
           .clear
           = twitter_profile "TRE_RS"
@@ -146,6 +148,5 @@
 %hr
 %section.lightning_talks_list
   %h1 Lightning Talks
-  %p Aguarde, em breve mais novidades.
-  %p Caso tenha interesse em apresentar um lightning talk, #{mail_to 'contato@rsrails.com.br', 'mande já sua proposta'}.
+  %p O cadastro para <strong>Lightning Talks</strong> ocorrerá no dia do evento. Caso tenha interesse em garantir seu espaço, #{mail_to 'contato@rsrails.com.br', 'mande já sua proposta'}.
 .clear

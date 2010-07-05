@@ -1,15 +1,16 @@
 - @body_id = "index"
 %section.home
   %h1 RS on Rails 2010 — 2ª Edição
+  %p O <strong>RS on Rails</strong> é um evento técnico sobre Ruby on Rails, único no sul do Brasil, voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <strong>Ruby on Rails</strong>.
   %p.alert
-    %strong 21 de Agosto
+    %strong Data: 21 de Agosto
     %br
     %strong Local: PUCRS
-  %p O evento seguirá os moldes da 1ª edição, com duração aproximada de 12h (com pausas para coffee break e almoço) e apresentação de palestras.
-  %p Após o sucesso da primeira edição o evento se consolida como um evento único no sul do Brasil, sendo parada obrigatória para desenvolvedores Rails.
+  %p Após o sucesso da primeira edição, o evento se consolida como único no sul do Brasil servindo também como exposição de profissionais para o mercado regional e nacional, sendo parada obrigatória para desenvolvedores Rails.
+  %h2 <strong>Como será?</strong>
+  %p O evento consiste na apresentação de <strong>Palestras Técnicas</strong>, <strong>Cases</strong> e <strong>Lightning Talks</strong> sobre programação usando o framework <strong>Ruby on Rails</strong>. Terá duração aproximada de 12h, com intervalos para almoço e coffee breaks.
   %br
-  %p Fique de olho na seção #{link_to 'Twitter Feed »', follow_event_path}. Ela concentra <em>trending topics</em>, novidades e promoções sobre o evento, assim como informações relacionadas ao Rails no Brasil.
-  %p Em breve mais novidades. Aguarde!
+  %p Fique de olho na seção #{link_to 'Twitter Feeds »', follow_event_path}. Ela concentra tópicos, novidades e promoções sobre o evento, assim como informações relacionadas ao Rails no Brasil.
 %aside.home
   %h6 RS on Rails 2009 — 1ª Edição
   %p #{link_to('Clique aqui', last_edition_keynotes_path)} e confira as <strong>palestras</strong> apresentadas em 2009.
@@ -24,4 +25,3 @@
 %hr
 = render :partial => 'flash', :locals => { :flash => flash }
 = render :partial => 'form_mailee'
-= javascript_include_tag 'home/index'
