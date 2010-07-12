@@ -3,7 +3,30 @@
 body
   padding: 2em 0
   height: 100%
-  background: #666 url(/images/bg.png) repeat scroll top left
+  background: #666 url(/images/bg.png) repeat scroll left top
+  a.big_signup_button
+    +rounded(36px)
+    +box-shadow(0,0,6px,#000)
+    background: #888 url(/images/grad2.png) repeat-x scroll left top
+    display: block
+    height: 40px
+    padding: 12px 12px 6px 12px
+    margin: 1em
+    color: green !important
+    font-size: 22px
+    font-weight: 900
+    text-shadow: #ddd 0 1px 0 !important
+    text-align: center
+    &:hover
+      text-decoration: none !important
+      background-color: #999
+      color: green + #111 !important
+    &:active
+      text-decoration: none !important
+      background-color: #666
+      color: green - #111 !important
+    img
+      vertical-align: middle
   hr
     margin: 3em 0
     padding: 0
