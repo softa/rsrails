@@ -1,0 +1,24 @@
+- @body_id = "signup"
+%section.signup
+  = image_tag("sold_out.png", :style => 'position:absolute;margin-top: -80px')
+  %h1 Inscrições ENCERRADAS
+  %p As inscrições para o RS on Rails são realizadas via PagSeguro Uol.
+  %p
+    Inscrições feitas até 1º de agosto tem desconto de 20%. #{link_to(image_tag("social/twitter_16.png") + ' Aproveite e avise seus amigos!',"http://twitter.com/?status=#{CGI.escape('Inscreva-se no RS on Rails com 20% de desconto até 1º de agosto http://bit.ly/dnyIMf #rsonrails')}", :target => :_blank)}
+  .for_professionals
+    %h3 Valor para profissionais:
+    %h2
+      %del de R$ 60,00
+      por R$ 48,00
+    %em somente até 1º de agosto
+  .for_students
+    %h3 Valor para estudantes:
+    %h2
+      %del de R$ 40,00
+      por R$ 32,00
+    %em somente até 1º de agosto
+.clear
+%hr
+%p O PagSeguro aceita as seguintes bandeiras:
+= image_tag "sprite_flags.gif"
+.clear
