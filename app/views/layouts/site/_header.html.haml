@@ -4,11 +4,20 @@
     %li= link_to 'RS on Rails 2010', root_path, :class => @selected_menu == :home ? 'current_view' : ''
     %li= link_to 'Twitter Feeds', follow_event_path, :class => @selected_menu == :twitter ? 'current_view' : ''
     %li= link_to 'Palestras', keynotes_path, :class => @selected_menu == :keynotes ? 'current_view' : ''
-    -#%li= link_to 'Inscrições', signup_path, :class => @selected_menu == :signup ? 'current_view' : ''
+    %li= link_to 'Inscrições', signup_path, :class => @selected_menu == :signup ? 'current_view' : ''
     %li= link_to 'Edição 2009 »', last_edition_about_path, :class => 'right_aligned'
     %li.clear
 #rsonrails_logo
   = link_to image_tag('rsrails_2010.png', :alt => 'RS on Rails'), '/home'
+  %ul.social_box
+    %li
+      %a{ :href => 'http://twitter.com/rsonrails' }
+        = image_tag 'social/twitter_32.png'
+        @rsonrails
+    %li
+      %a{ :href => 'mailto:contato@rsrails.com.br' }
+        = image_tag 'social/email_32.png'
+        contato@rsrails.com.br
 #about_ruby_on_rails
   %h3 Ruby on Rails
   %p #{link_to 'Ruby on Rails', 'http://rubyonrails.org/'}, ou apenas Rails ou RoR, é um framework MVC para desenvolvimento de aplicações web criado por #{link_to 'David Heinemeier Hansson', 'http://www.loudthinking.com/'}, da empresa #{link_to '37signals', 'http://37signals.com/'}, e publicado em julho de 2004. #{link_to 'Mais informações »', 'http://pt.wikipedia.org/wiki/Ruby_on_Rails'}

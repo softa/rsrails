@@ -57,7 +57,7 @@ body
     font:
       size: 30px
     color: black
-    text-shadow: 0 1px 0 rgba(255,255,255,.6)
+    text-shadow: #888 0 1px 0
   h3
     font:
       size: 18px
@@ -109,6 +109,9 @@ body
       strong
         color: #fff
         font-size: 2em
+  del
+    color: #333
+    text-shadow: #888 0 1px 0
   header
     +container
     display: block
@@ -150,6 +153,25 @@ body
       +span(15)
       +append(1)
       +float-left
+    &.signup
+      +span(22, last)
+      +append(1)
+      +prepend(1)
+      +float-left
+      .for_students
+        +span(11)
+        +float-left
+      .for_professionals
+        +span(11, last)
+        +float-left
+      h2
+        font-size: 24px
+        font-weight: 900
+        margin: 0
+      em
+        color: #bbb
+      form
+        margin: 1em 0
     aside
       &.keynotes_schedule, &.follow_event_sidebar, &.last_edition_schedule, &.current_sponsors, &.rs_rails_group
         +span(8)
