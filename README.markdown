@@ -1,3 +1,13 @@
+INSCRIÇÕES ENCERRADAS (Não há mais vagas!)
+==========================================
+
+Não vale pegar o código antigo aqui do repositório para realizar sua inscrição.
+
+No caso de você tentar fazer isso, irá receber uma ligação do Cabral (instrutor de Aikido).
+
+Em todos os casos, abrimos uma lista de espera, e, havendo suficientes interessados iremos procurar outro local para o evento. Entre em contato com o Cabral (cabral@softa.com.br - Uma pessoa realmente simpática).
+
+
 RS ON RAILS
 ===========
 
