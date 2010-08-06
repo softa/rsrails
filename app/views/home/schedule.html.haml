@@ -1,0 +1,141 @@
+- @body_id = 'schedule'
+%section.keynotes_list
+  %h1 Horários
+  %table.schedule_new{ :colspan => 0 }
+    %tr.start
+      %th 07h45
+      %td ·
+      %td Recepção e Credenciamento
+      %td
+    %tr.break
+      %th 08h
+      %td ·
+      %td Coffee
+      %td
+    %tr
+      %th 08h20
+      %td ·
+      %td Apresentação e abertura do evento
+      %td
+    %tr
+      %th 08h30
+      %td ·
+      %td
+        Rails 3: O que vem por aí?
+        %br
+        %em.loud com Carlos Antônio
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou assistir a palestra "Rails 3: O que vem por aí?" do Carlos Antônio no #rsonrails http://rsonrails.com.br/schedule')}", :target => :_blank)}
+    %tr
+      %th 9h30
+      %td ·
+      %td
+        Dicas de Desenvolvimento Web com Ruby
+        %br
+        %em.loud com Fábio Akita
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou assistir a palestra "Dicas de Desenvolvimento Web com Ruby" do Fábio Akita no #rsonrails http://rsonrails.com.br/schedule')}", :target => :_blank)}
+    %tr
+      %th 10h30
+      %td ·
+      %td
+        Aplicações Rack
+        %br
+        %em.loud com Thiago Bueno
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou assistir a palestra "Aplicações Rack" do Thiago Bueno no #rsonrails http://rsonrails.com.br/schedule')}", :target => :_blank)}
+    %tr
+      %th 11h30
+      %td ·
+      %td
+        %strong Case:
+        Tá Tri Imóveis: Empreendedorismo e Rails
+        %br
+        %em.loud com Guilherme Goettems Schneider
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou assistir o case da Tá Tri Imóveis com o Guilherme Goettems Schneider no #rsonrails http://rsonrails.com.br/schedule')}", :target => :_blank)}
+    %tr.break
+      %th 12h30
+      %td ·
+      %td Almoço
+      %td
+    %tr
+      %th 14h00
+      %td ·
+      %td
+        %strong Case:
+        Como o Rails mudou o desenvolvimento do TRE-RS, e pode mudar sua empresa
+        %br
+        %em.loud com Luiz Claudio Garcia
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou assistir o case do TRE-RS com o Luiz Claudio Garcia no #rsonrails http://rsonrails.com.br/schedule')}", :target => :_blank)}
+    %tr
+      %th 15h00
+      %td ·
+      %td
+        Ruby-Raid - Porque ruby pode ser divertido sem r***s!
+        %br
+        %em.loud com Pedro Pimentel
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou assistir a palestra "Ruby-Raid - Porque ruby pode ser divertido sem r***s!" do Pedro Pimentel no #rsonrails http://rsonrails.com.br/schedule')}", :target => :_blank)}
+    %tr
+      %th 16h00
+      %td ·
+      %td
+        Cloud e as opções do Google para desenvolvedores RoR
+        %br
+        %em.loud com Daniel Wildt
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou assistir a palestra "Cloud e as opções do Google para desenvolvedores RoR" do Daniel Wildt no #rsonrails http://rsonrails.com.br/schedule')}", :target => :_blank)}
+    %tr.break
+      %th 17h00
+      %td ·
+      %td Coffee
+      %td
+    %tr
+      %th 17h20
+      %td ·
+      %td Horário para patrocinadores
+      %td
+    %tr
+      %th 17h30
+      %td ·
+      %td
+        Proteja sua aplicação Rails
+        %br
+        %em.loud com Júlio Monteiro
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou assistir a palestra "Proteja sua aplicação Rails" do Júlio Monteiro no #rsonrails http://rsonrails.com.br/schedule')}", :target => :_blank)}
+    %tr
+      %th 18h30
+      %td ·
+      %td
+        Programação Distribuida e Processamento Assíncrono em Ruby
+        %br
+        %em.loud com Rodrigo Kochenburger
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou assistir a palestra "Programação Distribuida e Processamento Assíncrono em Ruby" do Rodrigo Kochenburger no #rsonrails http://rsonrails.com.br/schedule')}", :target => :_blank)}
+    %tr
+      %th 19h30
+      %td ·
+      %td
+        Lightning Talks
+        %br
+        %em.loud quer participar? #{ mail_to( 'contato@rsrails.com.br', 'entre em contato') }
+      %td
+    %tr
+      %th 20h00
+      %td ·
+      %td Encerramento
+      %td
+    %tr
+      %th 20h30
+      %td ·
+      %td
+        Happy Hour 
+        %br
+        no Boteco que o Cabral indicou » #TODO - link_google_maps
+        %br
+        %em.loud Compareça!
+      %td.twitter
+        #{link_to(image_tag("social/twitter_16.png") + ' divulgue',"http://twitter.com/?status=#{CGI.escape('Vou tomar todas no Happy Hour do #rsonrails')}", :target => :_blank)}

@@ -22,6 +22,10 @@ class HomeController < ActionController::Base
     @selected_menu       = :signup
   end
 
+  def schedule
+    @selected_menu       = :schedule
+  end
+
   def follow_event
     @selected_menu       = :twitter
   end

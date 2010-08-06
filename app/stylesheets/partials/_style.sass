@@ -417,3 +417,46 @@ ul.keynotes
         color: #fff
 .centered
   text-align: center
+table.schedule_new
+  +prepend-top
+  margin: 0
+  padding: 0
+  border: 0 none
+  font-size: 1.25em
+  tr
+    td, th
+      height: 3em
+    &:hover
+      th, td
+        background: rgba(0,0,0,.1)
+        &.twitter
+          a
+            opacity: 1
+    th
+      font:
+        style: italic
+        family: georgia, serif
+      text-align: right
+    th, td
+      text-shadow: 0 1px 0 $dark
+      padding: .5em
+      color: white
+      font-weight: 100
+      border:
+        top: 1px solid $light
+        bottom: 1px solid $dark
+      em
+        text-shadow: 0 1px 0 $light
+    &:first-child
+      th, td
+        border-top: 0 none
+    &:last-child
+      th, td
+        border-bottom: 0 none
+    td.twitter
+      text-align: right
+      a
+        opacity: .5
+        text-decoration: none !important
+        img
+          vertical-align: middle

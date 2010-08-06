@@ -9,6 +9,7 @@ ActionController::Routing::Routes.draw do |map|
   map.mailee_ok '/mailee_ok',           :controller => 'home', :action => 'mailee_ok'
   map.mailee_error '/mailee_error',     :controller => 'home', :action => 'mailee_error'
   map.who_we_are '/who_we_are',         :controller => 'home', :action => 'who_we_are'
+  map.schedule '/schedule',             :controller => 'home', :action => 'schedule'
 
   map.last_edition_about '/last_edition/about',       :controller => 'last_edition', :action => 'about'
   map.last_edition_keynotes '/last_edition/keynotes', :controller => 'last_edition', :action => 'keynotes'
