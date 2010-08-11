@@ -68,19 +68,19 @@
       .clear
     %li
       .keynote_info
-        %h3 Proteja sua aplicação Rails
-        %p Com algumas dicas em mente e pouco esforço, é possível tornar sua aplicação web bastante segura, e o Rails já oferece diversas ferramentas e funcionalidades para lhe ajudar nesta tarefa. Conheça as principais e mais recentes formas de ataque e saiba como proteger sua amada aplicação web contra intrusos indesejáveis.
+        %h3 Diversão: Um Guia Rápido
+        %p
       .keynote_author
         .wrapper
-          = image_tag 'http://a1.twimg.com/profile_images/677320714/julio_bigger.png', :class => 'avatar'
+          = image_tag 'http://a2.twimg.com/profile_images/479860086/texas-240_bigger.jpg', :class => 'avatar'
           %p
-            Julio Monteiro
+            Carlos Villela
             %br
-            <em>#{link_to "rubyonrails.pro.br", "http://www.rubyonrails.pro.br/", :target => :_blank}</em>
-            = link_to "monteiro.eti.br", "http://monteiro.eti.br/", :target => :_blank
+            <em>#{link_to 'ThoughtWorks', 'http://www.thoughtworks.com/', :target => :_blank}</em>
+            #{link_to "lixo.org", "http://lixo.org", :target => :_blank}
           .clear
-          = twitter_profile "jmonteiro"
-        %p.author_bio Júlio Monteiro (jmonteiro) atua fortemente com Ruby on Rails desde 2006, estando envolvido com a comunidade deste framework desde então. É arquiteto de software na Euax Gestão de Projetos e professor do curso de Ruby on Rails no SENAC/SC, já tendo também ministrado palestras envolvendo a linguagem de programação Ruby. É também graduando no Bacharel em Ciências da Computação na Universidade do Estado de Santa Catarina, atuando no grupo de pesquisa em Software Livre COLMÉIA.
+          = twitter_profile "cv"
+        %p.author_bio Carlos é consultor-líder pela ThoughtWorks há quase 6 anos e, além de ser um dos primeiros proponentes da linguagem Ruby e do Ruby on Rails na renomada consultoria, também tem feito diversos projetos relacionados com a migração e evolução de aplicações legadas utilizando testes automatizados de alto nível. Participou ativamente das idéias que deram origem ao BDD (Behaviour-Driven Development) e de diversos projetos open-source, como a ferramenta de testes WebDriver e a linguagem Ioke.
       .clear
     %li
       .keynote_info
@@ -154,3 +154,7 @@
   %h1 Lightning Talks
   %p O cadastro para <strong>#{link_to 'Lightning Talks', 'http://pt.wikipedia.org/wiki/Lightning_Talk'}</strong> ocorrerá no dia do evento. Caso tenha interesse em garantir seu espaço, #{mail_to 'contato@rsrails.com.br', 'mande já sua proposta'}.
 .clear
+.clear
+%br
+- link_to signup_path, :class => 'big_signup_button' do
+  Inscrições novamente abertas. Aproveite!

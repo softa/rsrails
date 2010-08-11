@@ -1,12 +1,9 @@
-INSCRIÇÕES ENCERRADAS (Não há mais vagas!)
+INSCRIÇÕES REABERTAS
 ==========================================
 
-Não vale pegar o código antigo aqui do repositório para realizar sua inscrição.
+Após um grande esforço do Cabral, temos um novo auditório.
 
-No caso de você tentar fazer isso, irá receber uma ligação do Cabral (instrutor de Aikido).
-
-Em todos os casos, abrimos uma lista de espera, e, havendo suficientes interessados iremos procurar outro local para o evento. Entre em contato com o Cabral (cabral@softa.com.br - Uma pessoa realmente simpática).
-
+[Faça já sua inscrição](http://rsrails.com.br/signup "Inscrições reabertas")
 
 RS ON RAILS
 ===========

@@ -1,6 +1,53 @@
 - @body_id = "signup"
 %section.signup
-  %h1 Inscrições esgotadas
-  %p As vagas para o RS on Rails 2010 estão esgotadas.
-  %p Se você não conseguiu se inscrever entre em contato com o #{mail_to 'cabral@softa.com.br', 'Cabral'}. Ele estará monitorando possíveis desistências ou, no caso de muitos interessados, a alteração do local do evento para possibilitar novas inscrições.
+%section.signup
+  %h1 Inscrições
+  %p As inscrições para o RS on Rails são realizadas via PagSeguro Uol.
+  -#%p Inscrições feitas até 1º de agosto tem desconto de 20%. #{link_to(image_tag("social/twitter_16.png") + ' Aproveite e avise seus amigos!',"http://twitter.com/?status=#{CGI.escape('Inscreva-se no RS on Rails com 20% de desconto até 1º de agosto http://bit.ly/dnyIMf #rsonrails')}", :target => :_blank)}
+  .for_professionals
+    %h3 Valor para profissionais:
+    %h2 R$ 60,00
+    %form{ :target => :pagseguro, :action => "https://pagseguro.uol.com.br/checkout/checkout.jhtml", :method => :post}
+      %fieldset
+        %input{ :type => :hidden, :name => :email_cobranca, :value => "contato@softa.com.br"}
+        %input{ :type => :hidden, :name => :tipo, :value => "CP" }
+        %input{ :type => :hidden, :name => :moeda, :value => "BRL" }
+        %input{ :type => :hidden, :name => "item_id_1", :value => "RR1" }
+        %input{ :type => :hidden, :name => "item_descr_1", :value => "RS on Rails 2010 - Profissional"}
+        %input{ :type => :hidden, :name => "item_quant_1", :value => "1"}
+        %input{ :type => :hidden, :name => "item_valor_1", :value => "6000"}
+        %input{ :type => :hidden, :name => "item_frete_1", :value => "000"}
+        -#%input{ :type=>"image", :src=>"https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamento/btnPagueComBR.jpg", :name=>"submit", :alt=>"Pague com PagSeguro - é rápido, grátis e seguro!"}
+        %button.button{:type => 'submit'} Inscreva-se como profissional
+        %br
+        %em O link abrirá em nova janela.
+  .for_students
+    %h3 Valor para estudantes:
+    %h2 R$ 40,00
+    %form{ :target => :pagseguro, :action => "https://pagseguro.uol.com.br/checkout/checkout.jhtml", :method => :post}
+      %fieldset
+        %input{ :type => :hidden, :name => :email_cobranca, :value => "contato@softa.com.br"}
+        %input{ :type => :hidden, :name => :tipo, :value => "CP"}
+        %input{ :type => :hidden, :name => :moeda, :value => "BRL"}
+        %input{ :type => :hidden, :name => "item_id_1", :value => "RR2"}
+        %input{ :type => :hidden, :name => "item_descr_1", :value => "RS on Rails 2010 - Estudante"}
+        %input{ :type => :hidden, :name => "item_quant_1", :value => "1"}
+        %input{ :type => :hidden, :name => "item_valor_1", :value => "4000"}
+        %input{ :type => :hidden, :name => "item_frete_1", :value => "000"}
+        -#%input{ :type=>"image", :src=>"https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamento/btnPagueComBR.jpg", :name=>"submit", :alt=>"Pague com PagSeguro - é rápido, grátis e seguro!"}
+        %button.button{:type => 'submit'} Inscreva-se como estudante
+        %br
+        %em O link abrirá em nova janela.
+  .clear
+  %br
+  %p O PagSeguro aceita as seguintes bandeiras:
+  = image_tag "sprite_flags.gif"
+.clear
+%hr
+%section
+  %h3 Onde ficar:
+  %p
+    Para quem vem de fora, #{link_to 'confira a lista de hotéis', "http://www.agilebrazil.com/2010/pt/viagem.html"}.
+    %br
+    Lista gentilmente cedida pelo pessoal do Agile Brazil.
 .clear
