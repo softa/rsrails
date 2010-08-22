@@ -1,10 +1,11 @@
 - @body_id = "signup"
 %section.signup
-%section.signup
-  %h1 Inscrições
-  %p As inscrições para o RS on Rails são realizadas via PagSeguro Uol.
+  %h1 Nothing to see here
+  %p move along
+  -# %p As inscrições para o RS on Rails são realizadas via PagSeguro Uol.
   -#%p Inscrições feitas até 1º de agosto tem desconto de 20%. #{link_to(image_tag("social/twitter_16.png") + ' Aproveite e avise seus amigos!',"http://twitter.com/?status=#{CGI.escape('Inscreva-se no RS on Rails com 20% de desconto até 1º de agosto http://bit.ly/dnyIMf #rsonrails')}", :target => :_blank)}
-  .for_professionals
+  -#
+    .for_professionals
     %h3 Valor para profissionais:
     %h2 R$ 60,00
     %form{ :target => :pagseguro, :action => "https://pagseguro.uol.com.br/checkout/checkout.jhtml", :method => :post}
@@ -21,7 +22,7 @@
         %button.button{:type => 'submit'} Inscreva-se como profissional
         %br
         %em O link abrirá em nova janela.
-  .for_students
+    .for_students
     %h3 Valor para estudantes:
     %h2 R$ 40,00
     %form{ :target => :pagseguro, :action => "https://pagseguro.uol.com.br/checkout/checkout.jhtml", :method => :post}
@@ -38,10 +39,10 @@
         %button.button{:type => 'submit'} Inscreva-se como estudante
         %br
         %em O link abrirá em nova janela.
-  .clear
-  %br
-  %p O PagSeguro aceita as seguintes bandeiras:
-  = image_tag "sprite_flags.gif"
+    .clear
+    %br
+    %p O PagSeguro aceita as seguintes bandeiras:
+    = image_tag "sprite_flags.gif"
 .clear
 %hr
 %section
