@@ -7,7 +7,7 @@
   %fieldset
     %h3 Receba novidades sobre o RS on Rails em seu email
     %input#name{ :name => :name, :type => :text, :placeholder => 'Nome completo' }
-    %input#email{ :name => :email, :type => :text, :placeholder => 'Endereço de email'}
+    %input#email{ :name => :email, :type => :email, :placeholder => 'Endereço de email'}
     %button.button.save_my_ticket{ :type => :submit } Assinar a newsletter
     %br
     Powered by #{link_to('Mailee.me', 'http://www.mailee.me/', :style => 'color:#0066ff')}
